@@ -1,0 +1,25 @@
+[2025-12-04T19:23:17.523+0600] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kolesa_trucks_etl.clean_data manual__2025-12-04T13:22:43.942127+00:00 [queued]>
+[2025-12-04T19:23:17.526+0600] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kolesa_trucks_etl.clean_data manual__2025-12-04T13:22:43.942127+00:00 [queued]>
+[2025-12-04T19:23:17.526+0600] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-12-04T19:23:17.535+0600] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): clean_data> on 2025-12-04 13:22:43.942127+00:00
+[2025-12-04T19:23:17.538+0600] {standard_task_runner.py:57} INFO - Started process 260 to run task
+[2025-12-04T19:23:17.541+0600] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'kolesa_trucks_etl', 'clean_data', 'manual__2025-12-04T13:22:43.942127+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/airflow_dag.py', '--cfg-path', '/tmp/tmpyhq5u5n6']
+[2025-12-04T19:23:17.542+0600] {standard_task_runner.py:85} INFO - Job 33: Subtask clean_data
+[2025-12-04T19:23:17.570+0600] {task_command.py:416} INFO - Running <TaskInstance: kolesa_trucks_etl.clean_data manual__2025-12-04T13:22:43.942127+00:00 [running]> on host 30355a3944ea
+[2025-12-04T19:23:17.606+0600] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='student_team' AIRFLOW_CTX_DAG_ID='kolesa_trucks_etl' AIRFLOW_CTX_TASK_ID='clean_data' AIRFLOW_CTX_EXECUTION_DATE='2025-12-04T13:22:43.942127+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-04T13:22:43.942127+00:00'
+[2025-12-04T19:23:17.606+0600] {logging_mixin.py:154} INFO - --- ОЧИСТКА ДАННЫХ ---
+[2025-12-04T19:23:17.606+0600] {logging_mixin.py:154} INFO - Ищем файл: /app/data/raw_data.csv
+[2025-12-04T19:23:17.636+0600] {logging_mixin.py:154} INFO -                     title    city     price  ...  body_style  drive_type    fuel
+0             Toyota RAV4  Алматы  13000000  ...   кроссовер       other  petrol
+1            Kia Sportage  Алматы  14900000  ...   кроссовер       other  petrol
+2        BYD Destroyer 05  Алматы   8500000  ...       седан       other   other
+3  Toyota Highlander Luxe  Алматы  29500000  ...   кроссовер       other  petrol
+4           Subaru Legacy  Алматы   6000000  ...       седан       other  petrol
+
+[5 rows x 9 columns]
+[2025-12-04T19:23:17.636+0600] {logging_mixin.py:154} INFO - Чистых записей: 74
+[2025-12-04T19:23:17.638+0600] {logging_mixin.py:154} INFO - Сохранено в /app/data/cleaned_data.csv
+[2025-12-04T19:23:17.639+0600] {python.py:194} INFO - Done. Returned value was: None
+[2025-12-04T19:23:17.642+0600] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=kolesa_trucks_etl, task_id=clean_data, execution_date=20251204T132243, start_date=20251204T132317, end_date=20251204T132317
+[2025-12-04T19:23:17.681+0600] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-04T19:23:17.697+0600] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

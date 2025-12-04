@@ -1,0 +1,1250 @@
+[2025-12-04T17:30:32.894+0600] {processor.py:157} INFO - Started process (PID=28) to work on /app/src/airflow_dag.py
+[2025-12-04T17:30:32.894+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:30:32.895+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:30:32.895+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:30:32.901+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:30:32.899+0600] {dagbag.py:346} ERROR - Failed to import: /app/src/airflow_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/src/airflow_dag.py", line 15, in <module>
+    from scraper import run_scraper
+  File "/app/src/scraper.py", line 5, in <module>
+    from playwright.sync_api import sync_playwright
+ModuleNotFoundError: No module named 'playwright'
+[2025-12-04T17:30:32.901+0600] {processor.py:841} WARNING - No viable dags retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:30:32.917+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.027 seconds
+[2025-12-04T17:31:03.088+0600] {processor.py:157} INFO - Started process (PID=34) to work on /app/src/airflow_dag.py
+[2025-12-04T17:31:03.090+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:31:03.092+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:31:03.091+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:31:03.101+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:31:03.099+0600] {dagbag.py:346} ERROR - Failed to import: /app/src/airflow_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/src/airflow_dag.py", line 15, in <module>
+    from scraper import run_scraper
+  File "/app/src/scraper.py", line 5, in <module>
+    from playwright.sync_api import sync_playwright
+ModuleNotFoundError: No module named 'playwright'
+[2025-12-04T17:31:03.101+0600] {processor.py:841} WARNING - No viable dags retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:31:03.124+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.053 seconds
+[2025-12-04T17:31:33.561+0600] {processor.py:157} INFO - Started process (PID=35) to work on /app/src/airflow_dag.py
+[2025-12-04T17:31:33.564+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:31:33.565+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:31:33.564+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:31:33.587+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:31:33.584+0600] {dagbag.py:346} ERROR - Failed to import: /app/src/airflow_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/src/airflow_dag.py", line 15, in <module>
+    from scraper import run_scraper
+  File "/app/src/scraper.py", line 5, in <module>
+    from playwright.sync_api import sync_playwright
+ModuleNotFoundError: No module named 'playwright'
+[2025-12-04T17:31:33.588+0600] {processor.py:841} WARNING - No viable dags retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:31:33.610+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.057 seconds
+[2025-12-04T17:32:04.020+0600] {processor.py:157} INFO - Started process (PID=36) to work on /app/src/airflow_dag.py
+[2025-12-04T17:32:04.023+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:32:04.024+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:32:04.023+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:32:04.036+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:32:04.034+0600] {dagbag.py:346} ERROR - Failed to import: /app/src/airflow_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/src/airflow_dag.py", line 15, in <module>
+    from scraper import run_scraper
+  File "/app/src/scraper.py", line 5, in <module>
+    from playwright.sync_api import sync_playwright
+ModuleNotFoundError: No module named 'playwright'
+[2025-12-04T17:32:04.036+0600] {processor.py:841} WARNING - No viable dags retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:32:04.055+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.042 seconds
+[2025-12-04T17:32:34.373+0600] {processor.py:157} INFO - Started process (PID=37) to work on /app/src/airflow_dag.py
+[2025-12-04T17:32:34.375+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:32:34.380+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:32:34.378+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:32:34.392+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:32:34.390+0600] {dagbag.py:346} ERROR - Failed to import: /app/src/airflow_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/src/airflow_dag.py", line 15, in <module>
+    from scraper import run_scraper
+  File "/app/src/scraper.py", line 5, in <module>
+    from playwright.sync_api import sync_playwright
+ModuleNotFoundError: No module named 'playwright'
+[2025-12-04T17:32:34.393+0600] {processor.py:841} WARNING - No viable dags retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:32:34.419+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.052 seconds
+[2025-12-04T17:33:04.524+0600] {processor.py:157} INFO - Started process (PID=38) to work on /app/src/airflow_dag.py
+[2025-12-04T17:33:04.526+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:33:04.528+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:33:04.527+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:33:04.545+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:33:04.542+0600] {dagbag.py:346} ERROR - Failed to import: /app/src/airflow_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/src/airflow_dag.py", line 15, in <module>
+    from scraper import run_scraper
+  File "/app/src/scraper.py", line 5, in <module>
+    from playwright.sync_api import sync_playwright
+ModuleNotFoundError: No module named 'playwright'
+[2025-12-04T17:33:04.545+0600] {processor.py:841} WARNING - No viable dags retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:33:04.566+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.051 seconds
+[2025-12-04T17:33:34.665+0600] {processor.py:157} INFO - Started process (PID=45) to work on /app/src/airflow_dag.py
+[2025-12-04T17:33:34.667+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:33:34.668+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:33:34.668+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:33:34.681+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:33:34.679+0600] {dagbag.py:346} ERROR - Failed to import: /app/src/airflow_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/src/airflow_dag.py", line 15, in <module>
+    from scraper import run_scraper
+  File "/app/src/scraper.py", line 5, in <module>
+    from playwright.sync_api import sync_playwright
+ModuleNotFoundError: No module named 'playwright'
+[2025-12-04T17:33:34.681+0600] {processor.py:841} WARNING - No viable dags retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:33:34.703+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.046 seconds
+[2025-12-04T17:34:04.816+0600] {processor.py:157} INFO - Started process (PID=46) to work on /app/src/airflow_dag.py
+[2025-12-04T17:34:04.821+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:34:04.823+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:34:04.822+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:34:04.834+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:34:04.831+0600] {dagbag.py:346} ERROR - Failed to import: /app/src/airflow_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/src/airflow_dag.py", line 15, in <module>
+    from scraper import run_scraper
+  File "/app/src/scraper.py", line 5, in <module>
+    from playwright.sync_api import sync_playwright
+ModuleNotFoundError: No module named 'playwright'
+[2025-12-04T17:34:04.835+0600] {processor.py:841} WARNING - No viable dags retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:34:04.862+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.053 seconds
+[2025-12-04T17:34:35.043+0600] {processor.py:157} INFO - Started process (PID=47) to work on /app/src/airflow_dag.py
+[2025-12-04T17:34:35.046+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:34:35.048+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:34:35.047+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:34:35.063+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:34:35.056+0600] {dagbag.py:346} ERROR - Failed to import: /app/src/airflow_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/src/airflow_dag.py", line 15, in <module>
+    from scraper import run_scraper
+  File "/app/src/scraper.py", line 5, in <module>
+    from playwright.sync_api import sync_playwright
+ModuleNotFoundError: No module named 'playwright'
+[2025-12-04T17:34:35.064+0600] {processor.py:841} WARNING - No viable dags retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:34:35.087+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.064 seconds
+[2025-12-04T17:35:05.196+0600] {processor.py:157} INFO - Started process (PID=48) to work on /app/src/airflow_dag.py
+[2025-12-04T17:35:05.198+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:35:05.200+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:35:05.199+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:35:05.211+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:35:05.209+0600] {dagbag.py:346} ERROR - Failed to import: /app/src/airflow_dag.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/src/airflow_dag.py", line 15, in <module>
+    from scraper import run_scraper
+  File "/app/src/scraper.py", line 5, in <module>
+    from playwright.sync_api import sync_playwright
+ModuleNotFoundError: No module named 'playwright'
+[2025-12-04T17:35:05.212+0600] {processor.py:841} WARNING - No viable dags retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:35:05.242+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.057 seconds
+[2025-12-04T17:35:56.543+0600] {processor.py:157} INFO - Started process (PID=41) to work on /app/src/airflow_dag.py
+[2025-12-04T17:35:56.545+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:35:56.546+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:35:56.546+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:35:56.805+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:35:56.811+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:35:56.810+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:35:56.894+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:35:56.894+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:35:56.894239+00:00, run_after=2025-12-04T11:35:56.894239+00:00
+[2025-12-04T17:35:56.906+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.369 seconds
+[2025-12-04T17:36:27.759+0600] {processor.py:157} INFO - Started process (PID=49) to work on /app/src/airflow_dag.py
+[2025-12-04T17:36:27.761+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:36:27.763+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:36:27.762+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:36:28.067+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:36:28.093+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:36:28.093+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:36:28.115+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:36:28.115+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:36:28.115640+00:00, run_after=2025-12-04T11:36:28.115640+00:00
+[2025-12-04T17:36:28.137+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.384 seconds
+[2025-12-04T17:36:59.215+0600] {processor.py:157} INFO - Started process (PID=57) to work on /app/src/airflow_dag.py
+[2025-12-04T17:36:59.219+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:36:59.221+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:36:59.220+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:36:59.498+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:36:59.512+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:36:59.512+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:36:59.524+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:36:59.524+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:36:59.524598+00:00, run_after=2025-12-04T11:36:59.524598+00:00
+[2025-12-04T17:36:59.537+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.334 seconds
+[2025-12-04T17:37:30.649+0600] {processor.py:157} INFO - Started process (PID=65) to work on /app/src/airflow_dag.py
+[2025-12-04T17:37:30.653+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:37:30.654+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:37:30.653+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:37:30.934+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:37:30.947+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:37:30.947+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:37:30.959+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:37:30.959+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:37:30.959574+00:00, run_after=2025-12-04T11:37:30.959574+00:00
+[2025-12-04T17:37:30.972+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.333 seconds
+[2025-12-04T17:38:02.070+0600] {processor.py:157} INFO - Started process (PID=73) to work on /app/src/airflow_dag.py
+[2025-12-04T17:38:02.073+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:38:02.075+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:38:02.074+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:38:02.388+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:38:02.401+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:38:02.401+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:38:02.411+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:38:02.411+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:38:02.411001+00:00, run_after=2025-12-04T11:38:02.411001+00:00
+[2025-12-04T17:38:02.520+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.464 seconds
+[2025-12-04T17:38:33.282+0600] {processor.py:157} INFO - Started process (PID=81) to work on /app/src/airflow_dag.py
+[2025-12-04T17:38:33.286+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:38:33.289+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:38:33.288+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:38:33.654+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:38:33.676+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:38:33.676+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:38:33.691+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:38:33.691+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:38:33.691062+00:00, run_after=2025-12-04T11:38:33.691062+00:00
+[2025-12-04T17:38:33.793+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.520 seconds
+[2025-12-04T17:39:04.299+0600] {processor.py:157} INFO - Started process (PID=89) to work on /app/src/airflow_dag.py
+[2025-12-04T17:39:04.301+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:39:04.303+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:39:04.302+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:39:04.620+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:39:04.635+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:39:04.635+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:39:04.765+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:39:04.765+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:39:04.765750+00:00, run_after=2025-12-04T11:39:04.765750+00:00
+[2025-12-04T17:39:04.777+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.488 seconds
+[2025-12-04T17:39:35.205+0600] {processor.py:157} INFO - Started process (PID=97) to work on /app/src/airflow_dag.py
+[2025-12-04T17:39:35.209+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:39:35.210+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:39:35.209+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:39:35.533+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:39:35.550+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:39:35.550+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:39:35.691+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:39:35.691+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:39:35.691148+00:00, run_after=2025-12-04T11:39:35.691148+00:00
+[2025-12-04T17:39:35.709+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.512 seconds
+[2025-12-04T17:40:06.206+0600] {processor.py:157} INFO - Started process (PID=105) to work on /app/src/airflow_dag.py
+[2025-12-04T17:40:06.209+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:40:06.211+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:40:06.210+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:40:06.516+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:40:06.533+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:40:06.533+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:40:06.687+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:40:06.687+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:40:06.686990+00:00, run_after=2025-12-04T11:40:06.686990+00:00
+[2025-12-04T17:40:06.699+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.503 seconds
+[2025-12-04T17:40:37.213+0600] {processor.py:157} INFO - Started process (PID=113) to work on /app/src/airflow_dag.py
+[2025-12-04T17:40:37.216+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:40:37.218+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:40:37.217+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:40:37.532+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:40:37.547+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:40:37.547+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:40:37.562+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:40:37.562+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:40:37.562614+00:00, run_after=2025-12-04T11:40:37.562614+00:00
+[2025-12-04T17:40:37.578+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.378 seconds
+[2025-12-04T17:41:08.060+0600] {processor.py:157} INFO - Started process (PID=121) to work on /app/src/airflow_dag.py
+[2025-12-04T17:41:08.063+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:41:08.065+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:41:08.064+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:41:08.398+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:41:08.414+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:41:08.414+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:41:08.427+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:41:08.427+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:41:08.427508+00:00, run_after=2025-12-04T11:41:08.427508+00:00
+[2025-12-04T17:41:08.440+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.396 seconds
+[2025-12-04T17:41:38.624+0600] {processor.py:157} INFO - Started process (PID=129) to work on /app/src/airflow_dag.py
+[2025-12-04T17:41:38.628+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:41:38.630+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:41:38.628+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:41:39.041+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:41:39.059+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:41:39.059+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:41:39.073+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:41:39.073+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:41:39.073305+00:00, run_after=2025-12-04T11:41:39.073305+00:00
+[2025-12-04T17:41:39.096+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.481 seconds
+[2025-12-04T17:42:09.347+0600] {processor.py:157} INFO - Started process (PID=137) to work on /app/src/airflow_dag.py
+[2025-12-04T17:42:09.354+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:42:09.355+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:42:09.354+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:42:09.666+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:42:09.689+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:42:09.689+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:42:09.706+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:42:09.706+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:42:09.706320+00:00, run_after=2025-12-04T11:42:09.706320+00:00
+[2025-12-04T17:42:09.866+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.530 seconds
+[2025-12-04T17:42:40.182+0600] {processor.py:157} INFO - Started process (PID=145) to work on /app/src/airflow_dag.py
+[2025-12-04T17:42:40.185+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:42:40.188+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:42:40.186+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:42:40.504+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:42:40.518+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:42:40.518+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:42:40.532+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:42:40.532+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:42:40.532224+00:00, run_after=2025-12-04T11:42:40.532224+00:00
+[2025-12-04T17:42:40.686+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.513 seconds
+[2025-12-04T17:43:11.003+0600] {processor.py:157} INFO - Started process (PID=153) to work on /app/src/airflow_dag.py
+[2025-12-04T17:43:11.007+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:43:11.009+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:43:11.008+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:43:11.318+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:43:11.337+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:43:11.336+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:43:11.493+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:43:11.493+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:43:11.493223+00:00, run_after=2025-12-04T11:43:11.493223+00:00
+[2025-12-04T17:43:11.505+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.514 seconds
+[2025-12-04T17:43:41.794+0600] {processor.py:157} INFO - Started process (PID=161) to work on /app/src/airflow_dag.py
+[2025-12-04T17:43:41.799+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:43:41.802+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:43:41.801+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:43:42.104+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:43:42.119+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:43:42.118+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:43:42.260+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:43:42.259+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:43:42.259871+00:00, run_after=2025-12-04T11:43:42.259871+00:00
+[2025-12-04T17:43:42.273+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.487 seconds
+[2025-12-04T17:44:12.481+0600] {processor.py:157} INFO - Started process (PID=169) to work on /app/src/airflow_dag.py
+[2025-12-04T17:44:12.485+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:44:12.487+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:44:12.486+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:44:12.797+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:44:12.818+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:44:12.818+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:44:12.945+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:44:12.944+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:44:12.944772+00:00, run_after=2025-12-04T11:44:12.944772+00:00
+[2025-12-04T17:44:12.956+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.484 seconds
+[2025-12-04T17:44:43.180+0600] {processor.py:157} INFO - Started process (PID=177) to work on /app/src/airflow_dag.py
+[2025-12-04T17:44:43.183+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:44:43.185+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:44:43.185+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:44:43.538+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:44:43.564+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:44:43.564+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:44:43.579+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:44:43.579+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:44:43.579670+00:00, run_after=2025-12-04T11:44:43.579670+00:00
+[2025-12-04T17:44:43.595+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.424 seconds
+[2025-12-04T17:45:13.821+0600] {processor.py:157} INFO - Started process (PID=185) to work on /app/src/airflow_dag.py
+[2025-12-04T17:45:13.824+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:45:13.825+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:45:13.825+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:45:14.132+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:45:14.152+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:45:14.152+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:45:14.169+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:45:14.169+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:45:14.168923+00:00, run_after=2025-12-04T11:45:14.168923+00:00
+[2025-12-04T17:45:14.183+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.371 seconds
+[2025-12-04T17:45:44.336+0600] {processor.py:157} INFO - Started process (PID=193) to work on /app/src/airflow_dag.py
+[2025-12-04T17:45:44.339+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:45:44.341+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:45:44.340+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:45:44.725+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:45:44.742+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:45:44.742+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:45:44.757+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:45:44.757+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:45:44.757259+00:00, run_after=2025-12-04T11:45:44.757259+00:00
+[2025-12-04T17:45:44.778+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.450 seconds
+[2025-12-04T17:46:15.006+0600] {processor.py:157} INFO - Started process (PID=201) to work on /app/src/airflow_dag.py
+[2025-12-04T17:46:15.008+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:46:15.010+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:46:15.009+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:46:15.368+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:46:15.388+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:46:15.388+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:46:15.401+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:46:15.401+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:46:15.401513+00:00, run_after=2025-12-04T11:46:15.401513+00:00
+[2025-12-04T17:46:15.421+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.429 seconds
+[2025-12-04T17:46:45.631+0600] {processor.py:157} INFO - Started process (PID=209) to work on /app/src/airflow_dag.py
+[2025-12-04T17:46:45.644+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:46:45.647+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:46:45.646+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:46:45.955+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:46:45.976+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:46:45.975+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:46:45.986+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:46:45.986+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:46:45.986744+00:00, run_after=2025-12-04T11:46:45.986744+00:00
+[2025-12-04T17:46:46.110+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.488 seconds
+[2025-12-04T17:47:16.248+0600] {processor.py:157} INFO - Started process (PID=217) to work on /app/src/airflow_dag.py
+[2025-12-04T17:47:16.251+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:47:16.253+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:47:16.252+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:47:16.559+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:47:16.580+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:47:16.580+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:47:16.592+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:47:16.592+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:47:16.592735+00:00, run_after=2025-12-04T11:47:16.592735+00:00
+[2025-12-04T17:47:16.724+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.484 seconds
+[2025-12-04T17:47:46.854+0600] {processor.py:157} INFO - Started process (PID=225) to work on /app/src/airflow_dag.py
+[2025-12-04T17:47:46.857+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:47:46.859+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:47:46.858+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:47:47.121+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:47:47.134+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:47:47.134+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:47:47.224+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:47:47.224+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:47:47.224770+00:00, run_after=2025-12-04T11:47:47.224770+00:00
+[2025-12-04T17:47:47.236+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.390 seconds
+[2025-12-04T17:48:17.382+0600] {processor.py:157} INFO - Started process (PID=233) to work on /app/src/airflow_dag.py
+[2025-12-04T17:48:17.386+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:48:17.388+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:48:17.387+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:48:17.710+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:48:17.735+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:48:17.735+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:48:17.857+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:48:17.857+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:48:17.857506+00:00, run_after=2025-12-04T11:48:17.857506+00:00
+[2025-12-04T17:48:17.871+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.508 seconds
+[2025-12-04T17:48:48.121+0600] {processor.py:157} INFO - Started process (PID=241) to work on /app/src/airflow_dag.py
+[2025-12-04T17:48:48.124+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:48:48.126+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:48:48.125+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:48:48.399+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:48:48.416+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:48:48.415+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:48:48.431+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:48:48.431+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:48:48.431385+00:00, run_after=2025-12-04T11:48:48.431385+00:00
+[2025-12-04T17:48:48.446+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.332 seconds
+[2025-12-04T17:49:18.627+0600] {processor.py:157} INFO - Started process (PID=249) to work on /app/src/airflow_dag.py
+[2025-12-04T17:49:18.631+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:49:18.633+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:49:18.632+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:49:18.942+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:49:18.960+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:49:18.960+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:49:18.977+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:49:18.977+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:49:18.976949+00:00, run_after=2025-12-04T11:49:18.976949+00:00
+[2025-12-04T17:49:18.992+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.374 seconds
+[2025-12-04T17:49:49.138+0600] {processor.py:157} INFO - Started process (PID=257) to work on /app/src/airflow_dag.py
+[2025-12-04T17:49:49.142+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T17:49:49.144+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:49:49.143+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T17:49:49.443+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T17:49:49.463+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:49:49.463+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T17:49:49.477+0600] {logging_mixin.py:154} INFO - [2025-12-04T17:49:49.477+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T11:49:49.476895+00:00, run_after=2025-12-04T11:49:49.476895+00:00
+[2025-12-04T17:49:49.492+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.362 seconds
+[2025-12-04T18:02:38.373+0600] {processor.py:157} INFO - Started process (PID=266) to work on /app/src/airflow_dag.py
+[2025-12-04T18:02:38.375+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:02:38.376+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:02:38.375+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:02:38.843+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:02:38.864+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:02:38.864+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:02:38.883+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:02:38.882+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:02:38.881503+00:00, run_after=2025-12-04T12:02:38.881503+00:00
+[2025-12-04T18:02:38.899+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.532 seconds
+[2025-12-04T18:26:53.706+0600] {processor.py:157} INFO - Started process (PID=280) to work on /app/src/airflow_dag.py
+[2025-12-04T18:26:53.708+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:26:53.709+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:26:53.709+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:26:54.237+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:26:54.276+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:26:54.275+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:26:54.295+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:26:54.294+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:26:54.294141+00:00, run_after=2025-12-04T12:26:54.294141+00:00
+[2025-12-04T18:26:54.449+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.749 seconds
+[2025-12-04T18:27:24.762+0600] {processor.py:157} INFO - Started process (PID=288) to work on /app/src/airflow_dag.py
+[2025-12-04T18:27:24.768+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:27:24.770+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:27:24.769+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:27:25.159+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:27:25.192+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:27:25.191+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:27:25.209+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:27:25.209+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:27:25.209612+00:00, run_after=2025-12-04T12:27:25.209612+00:00
+[2025-12-04T18:27:25.448+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.693 seconds
+[2025-12-04T18:27:55.651+0600] {processor.py:157} INFO - Started process (PID=296) to work on /app/src/airflow_dag.py
+[2025-12-04T18:27:55.654+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:27:55.656+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:27:55.655+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:27:56.005+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:27:56.036+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:27:56.036+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:27:56.053+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:27:56.053+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:27:56.053442+00:00, run_after=2025-12-04T12:27:56.053442+00:00
+[2025-12-04T18:27:56.186+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.543 seconds
+[2025-12-04T18:28:33.076+0600] {processor.py:157} INFO - Started process (PID=41) to work on /app/src/airflow_dag.py
+[2025-12-04T18:28:33.078+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:28:33.079+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:28:33.078+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:28:33.483+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:28:33.493+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:28:33.493+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:28:33.640+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:28:33.640+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:28:33.640084+00:00, run_after=2025-12-04T12:28:33.640084+00:00
+[2025-12-04T18:28:33.658+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.585 seconds
+[2025-12-04T18:29:04.339+0600] {processor.py:157} INFO - Started process (PID=49) to work on /app/src/airflow_dag.py
+[2025-12-04T18:29:04.342+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:29:04.343+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:29:04.343+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:29:04.673+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:29:04.693+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:29:04.693+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:29:04.707+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:29:04.707+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:29:04.707252+00:00, run_after=2025-12-04T12:29:04.707252+00:00
+[2025-12-04T18:29:04.721+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.387 seconds
+[2025-12-04T18:29:35.755+0600] {processor.py:157} INFO - Started process (PID=57) to work on /app/src/airflow_dag.py
+[2025-12-04T18:29:35.757+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:29:35.759+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:29:35.758+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:29:36.056+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:29:36.070+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:29:36.070+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:29:36.081+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:29:36.081+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:29:36.081538+00:00, run_after=2025-12-04T12:29:36.081538+00:00
+[2025-12-04T18:29:36.095+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.345 seconds
+[2025-12-04T18:30:06.240+0600] {processor.py:157} INFO - Started process (PID=65) to work on /app/src/airflow_dag.py
+[2025-12-04T18:30:06.243+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:30:06.245+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:30:06.244+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:30:06.548+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:30:06.565+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:30:06.564+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:30:06.581+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:30:06.581+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:30:06.581319+00:00, run_after=2025-12-04T12:30:06.581319+00:00
+[2025-12-04T18:30:06.594+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.362 seconds
+[2025-12-04T18:30:37.558+0600] {processor.py:157} INFO - Started process (PID=73) to work on /app/src/airflow_dag.py
+[2025-12-04T18:30:37.560+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:30:37.562+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:30:37.561+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:30:37.916+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:30:37.940+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:30:37.939+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:30:37.954+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:30:37.954+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:30:37.954018+00:00, run_after=2025-12-04T12:30:37.954018+00:00
+[2025-12-04T18:30:38.090+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.538 seconds
+[2025-12-04T18:31:08.997+0600] {processor.py:157} INFO - Started process (PID=81) to work on /app/src/airflow_dag.py
+[2025-12-04T18:31:09.000+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:31:09.002+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:31:09.001+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:31:09.339+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:31:09.353+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:31:09.353+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:31:09.373+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:31:09.373+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:31:09.373529+00:00, run_after=2025-12-04T12:31:09.373529+00:00
+[2025-12-04T18:31:09.477+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.489 seconds
+[2025-12-04T18:31:40.111+0600] {processor.py:157} INFO - Started process (PID=89) to work on /app/src/airflow_dag.py
+[2025-12-04T18:31:40.114+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:31:40.115+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:31:40.114+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:31:40.437+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:31:40.451+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:31:40.451+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:31:40.667+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:31:40.667+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:31:40.667712+00:00, run_after=2025-12-04T12:31:40.667712+00:00
+[2025-12-04T18:31:40.681+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.577 seconds
+[2025-12-04T18:32:11.169+0600] {processor.py:157} INFO - Started process (PID=97) to work on /app/src/airflow_dag.py
+[2025-12-04T18:32:11.172+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:32:11.174+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:32:11.173+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:32:11.498+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:32:11.520+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:32:11.520+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:32:11.655+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:32:11.655+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:32:11.655445+00:00, run_after=2025-12-04T12:32:11.655445+00:00
+[2025-12-04T18:32:11.666+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.505 seconds
+[2025-12-04T18:32:42.162+0600] {processor.py:157} INFO - Started process (PID=105) to work on /app/src/airflow_dag.py
+[2025-12-04T18:32:42.165+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:32:42.167+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:32:42.166+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:32:42.475+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:32:42.488+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:32:42.488+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:33:08.838+0600] {processor.py:157} INFO - Started process (PID=23) to work on /app/src/airflow_dag.py
+[2025-12-04T18:33:08.840+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:33:08.841+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:33:08.840+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:33:09.118+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:33:09.133+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:33:09.133+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:33:09.234+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:33:09.234+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:33:09.234533+00:00, run_after=2025-12-04T12:33:09.234533+00:00
+[2025-12-04T18:33:09.252+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.421 seconds
+[2025-12-04T18:33:40.065+0600] {processor.py:157} INFO - Started process (PID=36) to work on /app/src/airflow_dag.py
+[2025-12-04T18:33:40.067+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:33:40.069+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:33:40.068+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:33:40.362+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:33:40.380+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:33:40.379+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:33:40.391+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:33:40.391+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:33:40.391543+00:00, run_after=2025-12-04T12:33:40.391543+00:00
+[2025-12-04T18:33:40.404+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.350 seconds
+[2025-12-04T18:34:11.514+0600] {processor.py:157} INFO - Started process (PID=44) to work on /app/src/airflow_dag.py
+[2025-12-04T18:34:11.516+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:34:11.518+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:34:11.517+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:34:11.814+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:34:11.828+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:34:11.827+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:34:11.839+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:34:11.839+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-03T12:34:11.839712+00:00, run_after=2025-12-04T12:34:11.839712+00:00
+[2025-12-04T18:34:11.851+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.342 seconds
+[2025-12-04T18:34:52.533+0600] {processor.py:157} INFO - Started process (PID=258) to work on /app/src/airflow_dag.py
+[2025-12-04T18:34:52.535+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:34:52.536+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:34:52.536+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:34:52.844+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:34:52.860+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:34:52.860+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:34:52.873+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:34:52.873+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:34:52.891+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.362 seconds
+[2025-12-04T18:35:23.906+0600] {processor.py:157} INFO - Started process (PID=511) to work on /app/src/airflow_dag.py
+[2025-12-04T18:35:23.909+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:35:23.911+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:35:23.910+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:35:24.223+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:35:24.238+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:35:24.238+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:35:24.249+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:35:24.249+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:35:24.262+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.363 seconds
+[2025-12-04T18:35:55.371+0600] {processor.py:157} INFO - Started process (PID=519) to work on /app/src/airflow_dag.py
+[2025-12-04T18:35:55.375+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:35:55.379+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:35:55.376+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:35:55.687+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:35:55.704+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:35:55.704+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:35:55.715+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:35:55.715+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:35:55.846+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.486 seconds
+[2025-12-04T18:36:26.877+0600] {processor.py:157} INFO - Started process (PID=527) to work on /app/src/airflow_dag.py
+[2025-12-04T18:36:26.881+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:36:26.883+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:36:26.882+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:36:27.228+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:36:27.250+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:36:27.249+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:36:27.276+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:36:27.275+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:36:27.402+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.531 seconds
+[2025-12-04T18:36:58.089+0600] {processor.py:157} INFO - Started process (PID=535) to work on /app/src/airflow_dag.py
+[2025-12-04T18:36:58.094+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:36:58.096+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:36:58.095+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:36:58.416+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:36:58.445+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:36:58.445+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:36:58.568+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:36:58.568+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:36:58.590+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.512 seconds
+[2025-12-04T18:37:28.831+0600] {processor.py:157} INFO - Started process (PID=543) to work on /app/src/airflow_dag.py
+[2025-12-04T18:37:28.838+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:37:28.839+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:37:28.839+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:37:29.139+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:37:29.163+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:37:29.163+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:37:29.271+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:37:29.270+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:37:29.287+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.464 seconds
+[2025-12-04T18:37:59.472+0600] {processor.py:157} INFO - Started process (PID=551) to work on /app/src/airflow_dag.py
+[2025-12-04T18:37:59.477+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:37:59.479+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:37:59.478+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:37:59.790+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:37:59.813+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:37:59.813+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:37:59.921+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:37:59.920+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:37:59.942+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.483 seconds
+[2025-12-04T18:38:30.102+0600] {processor.py:157} INFO - Started process (PID=559) to work on /app/src/airflow_dag.py
+[2025-12-04T18:38:30.108+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:38:30.110+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:38:30.109+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:38:30.384+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:38:30.407+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:38:30.406+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:38:30.424+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:38:30.424+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:38:30.445+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.350 seconds
+[2025-12-04T18:39:00.626+0600] {processor.py:157} INFO - Started process (PID=567) to work on /app/src/airflow_dag.py
+[2025-12-04T18:39:00.631+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:39:00.633+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:39:00.632+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:39:00.964+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:39:00.999+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:39:00.999+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:39:01.015+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:39:01.014+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:39:01.034+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.413 seconds
+[2025-12-04T18:39:31.270+0600] {processor.py:157} INFO - Started process (PID=575) to work on /app/src/airflow_dag.py
+[2025-12-04T18:39:31.275+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:39:31.277+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:39:31.276+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:39:31.609+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:39:31.637+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:39:31.637+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:39:31.650+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:39:31.650+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:39:31.671+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.408 seconds
+[2025-12-04T18:40:01.946+0600] {processor.py:157} INFO - Started process (PID=583) to work on /app/src/airflow_dag.py
+[2025-12-04T18:40:01.950+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:40:01.952+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:40:01.951+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:40:02.317+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:40:02.346+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:40:02.346+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:40:02.360+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:40:02.360+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:40:02.385+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.451 seconds
+[2025-12-04T18:40:32.602+0600] {processor.py:157} INFO - Started process (PID=591) to work on /app/src/airflow_dag.py
+[2025-12-04T18:40:32.605+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:40:32.607+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:40:32.606+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:40:32.896+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:40:32.918+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:40:32.918+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:40:32.933+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:40:32.933+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:40:33.102+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.507 seconds
+[2025-12-04T18:41:03.356+0600] {processor.py:157} INFO - Started process (PID=599) to work on /app/src/airflow_dag.py
+[2025-12-04T18:41:03.360+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:41:03.362+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:41:03.361+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:41:03.694+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:41:03.724+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:41:03.724+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:41:03.745+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:41:03.745+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:41:03.892+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.549 seconds
+[2025-12-04T18:41:34.122+0600] {processor.py:157} INFO - Started process (PID=607) to work on /app/src/airflow_dag.py
+[2025-12-04T18:41:34.127+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:41:34.129+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:41:34.128+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:41:34.469+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:41:34.493+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:41:34.493+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:41:34.628+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:41:34.628+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:41:34.645+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.536 seconds
+[2025-12-04T18:42:04.995+0600] {processor.py:157} INFO - Started process (PID=615) to work on /app/src/airflow_dag.py
+[2025-12-04T18:42:04.997+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:42:05.000+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:42:04.998+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:42:05.320+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:42:05.341+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:42:05.340+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:42:05.487+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:42:05.487+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:42:05.508+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.521 seconds
+[2025-12-04T18:42:35.769+0600] {processor.py:157} INFO - Started process (PID=623) to work on /app/src/airflow_dag.py
+[2025-12-04T18:42:35.773+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:42:35.775+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:42:35.774+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:42:36.109+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:42:36.132+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:42:36.131+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:42:36.150+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:42:36.150+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:42:36.173+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.410 seconds
+[2025-12-04T18:43:06.430+0600] {processor.py:157} INFO - Started process (PID=631) to work on /app/src/airflow_dag.py
+[2025-12-04T18:43:06.433+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:43:06.437+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:43:06.435+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:43:06.787+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:43:06.812+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:43:06.811+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:43:06.831+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:43:06.831+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:43:06.852+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.427 seconds
+[2025-12-04T18:43:37.102+0600] {processor.py:157} INFO - Started process (PID=639) to work on /app/src/airflow_dag.py
+[2025-12-04T18:43:37.106+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:43:37.108+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:43:37.107+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:43:37.447+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:43:37.465+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:43:37.465+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:43:37.482+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:43:37.482+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:43:37.501+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.405 seconds
+[2025-12-04T18:44:07.730+0600] {processor.py:157} INFO - Started process (PID=647) to work on /app/src/airflow_dag.py
+[2025-12-04T18:44:07.735+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:44:07.737+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:44:07.736+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:44:08.089+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:44:08.115+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:44:08.115+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:44:08.130+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:44:08.130+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:44:08.146+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.424 seconds
+[2025-12-04T18:45:13.491+0600] {processor.py:157} INFO - Started process (PID=863) to work on /app/src/airflow_dag.py
+[2025-12-04T18:45:13.495+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:45:13.497+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:45:13.496+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:45:14.024+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:45:14.036+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:45:14.036+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:45:14.044+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:45:14.044+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:45:14.057+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.569 seconds
+[2025-12-04T18:45:44.867+0600] {processor.py:157} INFO - Started process (PID=880) to work on /app/src/airflow_dag.py
+[2025-12-04T18:45:44.876+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:45:44.879+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:45:44.878+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:45:45.404+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:45:45.419+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:45:45.419+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:45:45.431+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:45:45.431+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:45:45.444+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.594 seconds
+[2025-12-04T18:46:16.413+0600] {processor.py:157} INFO - Started process (PID=888) to work on /app/src/airflow_dag.py
+[2025-12-04T18:46:16.416+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:46:16.418+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:46:16.417+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:46:16.911+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:46:16.923+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:46:16.923+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:46:16.932+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:46:16.932+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:46:16.943+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.541 seconds
+[2025-12-04T18:46:47.950+0600] {processor.py:157} INFO - Started process (PID=896) to work on /app/src/airflow_dag.py
+[2025-12-04T18:46:47.955+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:46:47.957+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:46:47.956+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:46:48.408+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:46:48.425+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:46:48.425+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:46:48.439+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:46:48.438+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:46:48.463+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.531 seconds
+[2025-12-04T18:47:19.362+0600] {processor.py:157} INFO - Started process (PID=904) to work on /app/src/airflow_dag.py
+[2025-12-04T18:47:19.366+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:47:19.369+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:47:19.368+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:47:19.863+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:47:19.878+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:47:19.877+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:47:19.888+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:47:19.888+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:47:19.900+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.551 seconds
+[2025-12-04T18:47:50.572+0600] {processor.py:157} INFO - Started process (PID=912) to work on /app/src/airflow_dag.py
+[2025-12-04T18:47:50.581+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:47:50.583+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:47:50.582+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:47:51.073+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:47:51.083+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:47:51.083+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:47:51.094+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:47:51.094+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:47:51.106+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.549 seconds
+[2025-12-04T18:48:21.698+0600] {processor.py:157} INFO - Started process (PID=920) to work on /app/src/airflow_dag.py
+[2025-12-04T18:48:21.702+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:48:21.704+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:48:21.702+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:48:22.179+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:48:22.189+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:48:22.188+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:48:22.199+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:48:22.199+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:48:22.211+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.522 seconds
+[2025-12-04T18:48:52.779+0600] {processor.py:157} INFO - Started process (PID=928) to work on /app/src/airflow_dag.py
+[2025-12-04T18:48:52.786+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:48:52.789+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:48:52.788+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:48:53.243+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:48:53.258+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:48:53.258+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:48:53.269+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:48:53.269+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:48:53.281+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.508 seconds
+[2025-12-04T18:49:23.948+0600] {processor.py:157} INFO - Started process (PID=936) to work on /app/src/airflow_dag.py
+[2025-12-04T18:49:23.952+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:49:23.953+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:49:23.952+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:49:24.393+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:49:24.403+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:49:24.403+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:49:24.410+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:49:24.410+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:49:24.421+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.485 seconds
+[2025-12-04T18:49:54.937+0600] {processor.py:157} INFO - Started process (PID=944) to work on /app/src/airflow_dag.py
+[2025-12-04T18:49:54.939+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:49:54.941+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:49:54.940+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:49:55.372+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:49:55.383+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:49:55.382+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:49:55.390+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:49:55.390+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:49:55.402+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.479 seconds
+[2025-12-04T18:50:26.233+0600] {processor.py:157} INFO - Started process (PID=961) to work on /app/src/airflow_dag.py
+[2025-12-04T18:50:26.236+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:50:26.238+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:50:26.237+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:50:26.660+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:50:26.670+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:50:26.670+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:50:26.678+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:50:26.678+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:50:26.689+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.465 seconds
+[2025-12-04T18:50:57.115+0600] {processor.py:157} INFO - Started process (PID=969) to work on /app/src/airflow_dag.py
+[2025-12-04T18:50:57.122+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:50:57.126+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:50:57.125+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:50:57.548+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:50:57.558+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:50:57.557+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:50:57.565+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:50:57.564+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:50:57.576+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.473 seconds
+[2025-12-04T18:52:08.412+0600] {processor.py:157} INFO - Started process (PID=1188) to work on /app/src/airflow_dag.py
+[2025-12-04T18:52:08.415+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:52:08.417+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:52:08.416+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:52:08.762+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:52:08.783+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:52:08.783+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:52:08.799+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:52:08.798+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:52:08.813+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.404 seconds
+[2025-12-04T18:52:39.825+0600] {processor.py:157} INFO - Started process (PID=1205) to work on /app/src/airflow_dag.py
+[2025-12-04T18:52:39.828+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:52:39.830+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:52:39.829+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:52:40.192+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:52:40.212+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:52:40.212+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:52:40.227+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:52:40.227+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:52:40.241+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.426 seconds
+[2025-12-04T18:53:11.302+0600] {processor.py:157} INFO - Started process (PID=1213) to work on /app/src/airflow_dag.py
+[2025-12-04T18:53:11.307+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:53:11.308+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:53:11.308+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:53:11.699+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:53:11.734+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:53:11.734+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:53:11.757+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:53:11.756+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:53:11.875+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.579 seconds
+[2025-12-04T18:53:42.914+0600] {processor.py:157} INFO - Started process (PID=1221) to work on /app/src/airflow_dag.py
+[2025-12-04T18:53:42.916+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:53:42.918+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:53:42.917+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:53:43.247+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:53:43.265+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:53:43.264+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:53:43.276+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:53:43.276+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:53:43.289+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.382 seconds
+[2025-12-04T18:54:13.897+0600] {processor.py:157} INFO - Started process (PID=1229) to work on /app/src/airflow_dag.py
+[2025-12-04T18:54:13.901+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:54:13.902+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:54:13.902+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:54:14.223+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:54:14.239+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:54:14.238+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:54:14.249+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:54:14.249+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:54:14.266+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.378 seconds
+[2025-12-04T18:54:44.813+0600] {processor.py:157} INFO - Started process (PID=1237) to work on /app/src/airflow_dag.py
+[2025-12-04T18:54:44.815+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:54:44.816+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:54:44.816+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:54:45.117+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:54:45.131+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:54:45.130+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:54:45.258+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:54:45.258+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:54:45.271+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.474 seconds
+[2025-12-04T18:55:15.423+0600] {processor.py:157} INFO - Started process (PID=1245) to work on /app/src/airflow_dag.py
+[2025-12-04T18:55:15.427+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:55:15.429+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:55:15.428+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:55:15.783+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:55:15.803+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:55:15.802+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:55:15.926+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:55:15.926+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:55:15.937+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.521 seconds
+[2025-12-04T18:55:46.449+0600] {processor.py:157} INFO - Started process (PID=1253) to work on /app/src/airflow_dag.py
+[2025-12-04T18:55:46.453+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:55:46.456+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:55:46.455+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:55:46.786+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:55:46.808+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:55:46.808+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:55:46.926+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:55:46.926+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:55:46.939+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.498 seconds
+[2025-12-04T18:56:17.523+0600] {processor.py:157} INFO - Started process (PID=1261) to work on /app/src/airflow_dag.py
+[2025-12-04T18:56:17.527+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:56:17.528+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:56:17.528+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:56:17.854+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:56:17.873+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:56:17.873+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:56:17.885+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:56:17.885+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:56:17.901+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.386 seconds
+[2025-12-04T18:56:48.413+0600] {processor.py:157} INFO - Started process (PID=1269) to work on /app/src/airflow_dag.py
+[2025-12-04T18:56:48.418+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:56:48.420+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:56:48.419+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:56:48.753+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:56:48.773+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:56:48.772+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:56:48.788+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:56:48.788+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:56:48.805+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.406 seconds
+[2025-12-04T18:57:19.388+0600] {processor.py:157} INFO - Started process (PID=1286) to work on /app/src/airflow_dag.py
+[2025-12-04T18:57:19.392+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:57:19.394+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:57:19.393+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:57:19.771+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:57:19.797+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:57:19.797+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:57:19.809+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:57:19.809+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:57:19.822+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.443 seconds
+[2025-12-04T18:57:50.322+0600] {processor.py:157} INFO - Started process (PID=1294) to work on /app/src/airflow_dag.py
+[2025-12-04T18:57:50.326+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:57:50.327+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:57:50.326+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:57:50.684+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:57:50.704+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:57:50.703+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:57:50.725+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:57:50.725+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:57:50.743+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.430 seconds
+[2025-12-04T18:58:21.295+0600] {processor.py:157} INFO - Started process (PID=1302) to work on /app/src/airflow_dag.py
+[2025-12-04T18:58:21.303+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:58:21.308+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:58:21.304+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:58:21.638+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:58:21.661+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:58:21.661+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:58:21.680+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:58:21.680+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:58:21.695+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.408 seconds
+[2025-12-04T18:58:52.216+0600] {processor.py:157} INFO - Started process (PID=1310) to work on /app/src/airflow_dag.py
+[2025-12-04T18:58:52.222+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:58:52.224+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:58:52.223+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:58:52.582+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:58:52.606+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:58:52.606+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:58:52.746+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:58:52.746+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:58:52.758+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.550 seconds
+[2025-12-04T18:59:23.021+0600] {processor.py:157} INFO - Started process (PID=1318) to work on /app/src/airflow_dag.py
+[2025-12-04T18:59:23.025+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:59:23.027+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:59:23.026+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:59:23.458+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:59:23.480+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:59:23.479+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:59:23.657+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:59:23.656+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:59:23.670+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.654 seconds
+[2025-12-04T18:59:43.386+0600] {processor.py:157} INFO - Started process (PID=23) to work on /app/src/airflow_dag.py
+[2025-12-04T18:59:43.387+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T18:59:43.387+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:59:43.387+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T18:59:43.850+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T18:59:43.873+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:59:43.873+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T18:59:44.007+0600] {logging_mixin.py:154} INFO - [2025-12-04T18:59:44.007+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T18:59:44.025+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.642 seconds
+[2025-12-04T19:00:14.651+0600] {processor.py:157} INFO - Started process (PID=36) to work on /app/src/airflow_dag.py
+[2025-12-04T19:00:14.653+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:00:14.654+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:00:14.654+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:00:15.037+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:00:15.065+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:00:15.064+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:00:15.078+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:00:15.078+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:00:15.094+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.460 seconds
+[2025-12-04T19:00:46.098+0600] {processor.py:157} INFO - Started process (PID=44) to work on /app/src/airflow_dag.py
+[2025-12-04T19:00:46.101+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:00:46.106+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:00:46.103+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:00:46.413+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:00:46.434+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:00:46.434+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:00:46.449+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:00:46.449+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:00:46.463+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.370 seconds
+[2025-12-04T19:01:17.567+0600] {processor.py:157} INFO - Started process (PID=52) to work on /app/src/airflow_dag.py
+[2025-12-04T19:01:17.570+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:01:17.572+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:01:17.571+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:01:17.884+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:01:17.909+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:01:17.908+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:01:17.925+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:01:17.924+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:01:17.942+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.390 seconds
+[2025-12-04T19:02:41.105+0600] {processor.py:157} INFO - Started process (PID=268) to work on /app/src/airflow_dag.py
+[2025-12-04T19:02:41.108+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:02:41.109+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:02:41.108+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:02:41.587+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:02:41.603+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:02:41.603+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:02:41.614+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:02:41.614+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:02:41.626+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.527 seconds
+[2025-12-04T19:03:12.428+0600] {processor.py:157} INFO - Started process (PID=285) to work on /app/src/airflow_dag.py
+[2025-12-04T19:03:12.437+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:03:12.439+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:03:12.438+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:03:12.890+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:03:12.900+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:03:12.900+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:03:12.907+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:03:12.907+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:03:12.919+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.498 seconds
+[2025-12-04T19:03:43.389+0600] {processor.py:157} INFO - Started process (PID=293) to work on /app/src/airflow_dag.py
+[2025-12-04T19:03:43.392+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:03:43.394+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:03:43.393+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:03:43.836+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:03:43.847+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:03:43.847+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:03:43.855+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:03:43.854+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:03:43.867+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.484 seconds
+[2025-12-04T19:04:14.470+0600] {processor.py:157} INFO - Started process (PID=301) to work on /app/src/airflow_dag.py
+[2025-12-04T19:04:14.473+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:04:14.477+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:04:14.476+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:04:14.885+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:04:14.894+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:04:14.894+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:04:14.903+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:04:14.903+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:04:14.914+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.450 seconds
+[2025-12-04T19:13:06.417+0600] {processor.py:157} INFO - Started process (PID=23) to work on /app/src/airflow_dag.py
+[2025-12-04T19:13:06.421+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:13:06.422+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:13:06.422+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:13:06.842+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:13:06.863+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:13:06.863+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:13:07.023+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:13:07.022+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:13:07.047+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.633 seconds
+[2025-12-04T19:14:19.723+0600] {processor.py:157} INFO - Started process (PID=254) to work on /app/src/airflow_dag.py
+[2025-12-04T19:14:19.729+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:14:19.730+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:14:19.730+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:14:20.332+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:14:20.345+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:14:20.345+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:14:20.356+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:14:20.355+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:14:20.370+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.651 seconds
+[2025-12-04T19:14:51.296+0600] {processor.py:157} INFO - Started process (PID=271) to work on /app/src/airflow_dag.py
+[2025-12-04T19:14:51.299+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:14:51.301+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:14:51.300+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:14:51.734+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:14:51.746+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:14:51.746+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:14:51.755+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:14:51.754+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:14:51.767+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.478 seconds
+[2025-12-04T19:15:22.777+0600] {processor.py:157} INFO - Started process (PID=279) to work on /app/src/airflow_dag.py
+[2025-12-04T19:15:22.781+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:15:22.782+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:15:22.781+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:15:23.195+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:15:23.206+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:15:23.206+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:15:23.216+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:15:23.216+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:15:23.231+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.464 seconds
+[2025-12-04T19:15:54.300+0600] {processor.py:157} INFO - Started process (PID=287) to work on /app/src/airflow_dag.py
+[2025-12-04T19:15:54.309+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:15:54.317+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:15:54.313+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:15:54.752+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:15:54.762+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:15:54.762+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:15:54.769+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:15:54.769+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:15:54.779+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.486 seconds
+[2025-12-04T19:16:25.849+0600] {processor.py:157} INFO - Started process (PID=295) to work on /app/src/airflow_dag.py
+[2025-12-04T19:16:25.852+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:16:25.854+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:16:25.853+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:16:26.288+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:16:26.303+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:16:26.302+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:16:26.311+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:16:26.311+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:16:26.323+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.484 seconds
+[2025-12-04T19:16:57.011+0600] {processor.py:157} INFO - Started process (PID=303) to work on /app/src/airflow_dag.py
+[2025-12-04T19:16:57.014+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:16:57.015+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:16:57.014+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:16:57.473+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:16:57.483+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:16:57.483+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:16:57.492+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:16:57.491+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:16:57.503+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.501 seconds
+[2025-12-04T19:17:28.184+0600] {processor.py:157} INFO - Started process (PID=311) to work on /app/src/airflow_dag.py
+[2025-12-04T19:17:28.196+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:17:28.202+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:17:28.199+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:17:28.705+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:17:28.720+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:17:28.720+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:17:28.728+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:17:28.728+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:17:28.740+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.567 seconds
+[2025-12-04T19:17:59.361+0600] {processor.py:157} INFO - Started process (PID=319) to work on /app/src/airflow_dag.py
+[2025-12-04T19:17:59.365+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:17:59.366+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:17:59.365+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:17:59.836+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:17:59.848+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:17:59.848+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:17:59.857+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:17:59.857+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:17:59.869+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.515 seconds
+[2025-12-04T19:18:30.439+0600] {processor.py:157} INFO - Started process (PID=327) to work on /app/src/airflow_dag.py
+[2025-12-04T19:18:30.444+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:18:30.446+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:18:30.445+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:18:30.950+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:18:30.964+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:18:30.964+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:18:30.973+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:18:30.973+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:18:30.985+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.554 seconds
+[2025-12-04T19:19:01.418+0600] {processor.py:157} INFO - Started process (PID=335) to work on /app/src/airflow_dag.py
+[2025-12-04T19:19:01.424+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:19:01.426+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:19:01.425+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:19:01.885+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:19:01.898+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:19:01.898+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:19:01.912+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:19:01.912+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:19:01.932+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.522 seconds
+[2025-12-04T19:19:32.916+0600] {processor.py:157} INFO - Started process (PID=352) to work on /app/src/airflow_dag.py
+[2025-12-04T19:19:32.924+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:19:32.926+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:19:32.925+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:19:33.530+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:19:33.542+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:19:33.542+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:19:33.556+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:19:33.556+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:19:33.578+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.674 seconds
+[2025-12-04T19:20:03.884+0600] {processor.py:157} INFO - Started process (PID=360) to work on /app/src/airflow_dag.py
+[2025-12-04T19:20:03.892+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:20:03.894+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:20:03.893+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:20:04.395+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:20:04.408+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:20:04.407+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:20:04.417+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:20:04.417+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:20:04.432+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.558 seconds
+[2025-12-04T19:20:34.852+0600] {processor.py:157} INFO - Started process (PID=368) to work on /app/src/airflow_dag.py
+[2025-12-04T19:20:34.866+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:20:34.868+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:20:34.867+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:20:35.316+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:20:35.328+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:20:35.328+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:20:35.337+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:20:35.337+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:20:35.354+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.511 seconds
+[2025-12-04T19:21:05.697+0600] {processor.py:157} INFO - Started process (PID=376) to work on /app/src/airflow_dag.py
+[2025-12-04T19:21:05.706+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:21:05.707+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:21:05.707+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:21:06.209+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:21:06.221+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:21:06.220+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:21:06.236+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:21:06.236+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:21:06.260+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.576 seconds
+[2025-12-04T19:21:36.596+0600] {processor.py:157} INFO - Started process (PID=384) to work on /app/src/airflow_dag.py
+[2025-12-04T19:21:36.603+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:21:36.604+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:21:36.604+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:21:37.370+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:21:37.401+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:21:37.401+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:21:37.417+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:21:37.417+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:21:37.438+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.855 seconds
+[2025-12-04T19:22:07.700+0600] {processor.py:157} INFO - Started process (PID=392) to work on /app/src/airflow_dag.py
+[2025-12-04T19:22:07.708+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:22:07.710+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:22:07.709+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:22:08.376+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:22:08.395+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:22:08.394+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:22:08.408+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:22:08.408+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:22:08.436+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.746 seconds
+[2025-12-04T19:22:36.979+0600] {processor.py:157} INFO - Started process (PID=23) to work on /app/src/airflow_dag.py
+[2025-12-04T19:22:36.987+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:22:36.987+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:22:36.987+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:22:37.318+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:22:37.339+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:22:37.338+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:22:37.531+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:22:37.531+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:22:37.546+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.588 seconds
+[2025-12-04T19:23:16.052+0600] {processor.py:157} INFO - Started process (PID=244) to work on /app/src/airflow_dag.py
+[2025-12-04T19:23:16.057+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:23:16.059+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:23:16.058+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:23:16.490+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:23:16.517+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:23:16.517+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:23:16.534+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:23:16.534+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:23:16.552+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.517 seconds
+[2025-12-04T19:23:47.521+0600] {processor.py:157} INFO - Started process (PID=270) to work on /app/src/airflow_dag.py
+[2025-12-04T19:23:47.527+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:23:47.529+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:23:47.528+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:23:47.809+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:23:47.825+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:23:47.825+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:23:47.842+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:23:47.842+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:23:47.855+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.343 seconds
+[2025-12-04T19:24:17.983+0600] {processor.py:157} INFO - Started process (PID=278) to work on /app/src/airflow_dag.py
+[2025-12-04T19:24:17.997+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:24:17.999+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:24:17.998+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:24:18.281+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:24:18.294+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:24:18.294+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:24:18.307+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:24:18.307+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:24:18.320+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.345 seconds
+[2025-12-04T19:24:48.419+0600] {processor.py:157} INFO - Started process (PID=286) to work on /app/src/airflow_dag.py
+[2025-12-04T19:24:48.423+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:24:48.424+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:24:48.424+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:24:48.759+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:24:48.777+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:24:48.777+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:24:48.790+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:24:48.790+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:24:48.805+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.391 seconds
+[2025-12-04T19:25:57.697+0600] {processor.py:157} INFO - Started process (PID=502) to work on /app/src/airflow_dag.py
+[2025-12-04T19:25:57.703+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:25:57.705+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:25:57.704+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:25:58.033+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:25:58.050+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:25:58.050+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:25:58.069+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:25:58.068+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:25:58.228+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.536 seconds
+[2025-12-04T19:26:29.066+0600] {processor.py:157} INFO - Started process (PID=528) to work on /app/src/airflow_dag.py
+[2025-12-04T19:26:29.073+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:26:29.075+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:26:29.074+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:26:29.393+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:26:29.412+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:26:29.412+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:26:29.431+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:26:29.430+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:26:29.570+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.511 seconds
+[2025-12-04T19:27:00.580+0600] {processor.py:157} INFO - Started process (PID=536) to work on /app/src/airflow_dag.py
+[2025-12-04T19:27:00.586+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:27:00.587+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:27:00.587+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:27:01.032+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:27:01.049+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:27:01.049+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:27:01.167+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:27:01.167+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:27:01.179+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.609 seconds
+[2025-12-04T19:27:31.992+0600] {processor.py:157} INFO - Started process (PID=544) to work on /app/src/airflow_dag.py
+[2025-12-04T19:27:32.039+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:27:32.043+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:27:32.040+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:27:32.577+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:27:32.608+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:27:32.608+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:27:32.803+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:27:32.803+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:27:32.826+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.860 seconds
+[2025-12-04T19:28:03.714+0600] {processor.py:157} INFO - Started process (PID=552) to work on /app/src/airflow_dag.py
+[2025-12-04T19:28:03.719+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:28:03.722+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:28:03.720+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:28:04.179+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:28:04.200+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:28:04.199+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:28:04.324+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:28:04.324+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:28:04.342+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.644 seconds
+[2025-12-04T19:28:34.992+0600] {processor.py:157} INFO - Started process (PID=560) to work on /app/src/airflow_dag.py
+[2025-12-04T19:28:35.001+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:28:35.005+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:28:35.004+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:28:35.509+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:28:35.545+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:28:35.545+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:28:35.577+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:28:35.576+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:28:35.601+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.614 seconds
+[2025-12-04T19:29:06.111+0600] {processor.py:157} INFO - Started process (PID=568) to work on /app/src/airflow_dag.py
+[2025-12-04T19:29:06.124+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:29:06.126+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:29:06.125+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:29:06.548+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:29:06.606+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:29:06.606+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:29:06.640+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:29:06.640+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:29:06.665+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.561 seconds
+[2025-12-04T19:29:37.111+0600] {processor.py:157} INFO - Started process (PID=576) to work on /app/src/airflow_dag.py
+[2025-12-04T19:29:37.122+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:29:37.126+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:29:37.125+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:29:37.473+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:29:37.499+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:29:37.499+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:29:37.511+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:29:37.511+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:29:37.532+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.442 seconds
+[2025-12-04T19:30:08.111+0600] {processor.py:157} INFO - Started process (PID=584) to work on /app/src/airflow_dag.py
+[2025-12-04T19:30:08.123+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:30:08.127+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:30:08.125+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:30:08.575+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:30:08.597+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:30:08.596+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:30:08.617+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:30:08.617+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:30:08.649+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.546 seconds
+[2025-12-04T19:30:39.151+0600] {processor.py:157} INFO - Started process (PID=592) to work on /app/src/airflow_dag.py
+[2025-12-04T19:30:39.156+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:30:39.158+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:30:39.157+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:30:39.525+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:30:39.562+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:30:39.561+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:30:39.596+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:30:39.596+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:30:39.884+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.740 seconds
+[2025-12-04T19:31:10.202+0600] {processor.py:157} INFO - Started process (PID=600) to work on /app/src/airflow_dag.py
+[2025-12-04T19:31:10.211+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:31:10.212+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:31:10.212+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:31:10.626+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:31:10.677+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:31:10.677+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:31:10.700+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:31:10.700+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:31:10.927+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.734 seconds
+[2025-12-04T19:31:41.212+0600] {processor.py:157} INFO - Started process (PID=608) to work on /app/src/airflow_dag.py
+[2025-12-04T19:31:41.218+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:31:41.219+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:31:41.219+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:31:41.645+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:31:41.672+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:31:41.671+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:31:41.840+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:31:41.840+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:31:41.861+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.661 seconds
+[2025-12-04T19:32:12.603+0600] {processor.py:157} INFO - Started process (PID=616) to work on /app/src/airflow_dag.py
+[2025-12-04T19:32:12.628+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:32:12.644+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:32:12.636+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:32:13.816+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:32:13.871+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:32:13.871+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:32:14.123+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:32:14.123+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:32:14.164+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 1.663 seconds
+[2025-12-04T19:32:44.448+0600] {processor.py:157} INFO - Started process (PID=624) to work on /app/src/airflow_dag.py
+[2025-12-04T19:32:44.456+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:32:44.459+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:32:44.457+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:32:45.129+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:32:45.169+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:32:45.169+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:32:45.434+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:32:45.434+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:32:45.475+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 1.042 seconds
+[2025-12-04T19:33:15.726+0600] {processor.py:157} INFO - Started process (PID=632) to work on /app/src/airflow_dag.py
+[2025-12-04T19:33:15.732+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:33:15.735+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:33:15.734+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:33:16.128+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:33:16.148+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:33:16.148+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:33:16.163+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:33:16.163+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:33:16.185+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.469 seconds
+[2025-12-04T19:33:46.359+0600] {processor.py:157} INFO - Started process (PID=640) to work on /app/src/airflow_dag.py
+[2025-12-04T19:33:46.365+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:33:46.367+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:33:46.366+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:33:46.704+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:33:46.724+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:33:46.724+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:33:46.737+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:33:46.737+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:33:46.757+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.406 seconds
+[2025-12-04T19:34:17.027+0600] {processor.py:157} INFO - Started process (PID=648) to work on /app/src/airflow_dag.py
+[2025-12-04T19:34:17.034+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:34:17.036+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:34:17.035+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:34:17.385+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:34:17.407+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:34:17.407+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:34:17.423+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:34:17.423+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:34:17.442+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.427 seconds
+[2025-12-04T19:34:47.694+0600] {processor.py:157} INFO - Started process (PID=656) to work on /app/src/airflow_dag.py
+[2025-12-04T19:34:47.698+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:34:47.702+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:34:47.701+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:34:48.043+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:34:48.066+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:34:48.066+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:34:48.081+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:34:48.081+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:34:48.214+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.527 seconds
+[2025-12-04T19:35:18.453+0600] {processor.py:157} INFO - Started process (PID=664) to work on /app/src/airflow_dag.py
+[2025-12-04T19:35:18.456+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:35:18.458+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:35:18.457+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:35:18.799+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:35:18.820+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:35:18.819+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:35:18.834+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:35:18.834+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:35:19.048+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.604 seconds
+[2025-12-04T19:35:49.339+0600] {processor.py:157} INFO - Started process (PID=672) to work on /app/src/airflow_dag.py
+[2025-12-04T19:35:49.344+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:35:49.346+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:35:49.345+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:35:49.710+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:35:49.733+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:35:49.733+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:35:49.865+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:35:49.865+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:35:49.881+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.556 seconds
+[2025-12-04T19:36:20.123+0600] {processor.py:157} INFO - Started process (PID=680) to work on /app/src/airflow_dag.py
+[2025-12-04T19:36:20.139+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:36:20.141+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:36:20.140+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:36:20.505+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:36:20.536+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:36:20.536+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:36:20.670+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:36:20.670+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:36:20.685+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.571 seconds
+[2025-12-04T19:36:50.893+0600] {processor.py:157} INFO - Started process (PID=688) to work on /app/src/airflow_dag.py
+[2025-12-04T19:36:50.906+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:36:50.908+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:36:50.907+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:36:51.227+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:36:51.247+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:36:51.246+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:36:51.395+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:36:51.395+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:36:51.407+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.522 seconds
+[2025-12-04T19:37:21.678+0600] {processor.py:157} INFO - Started process (PID=696) to work on /app/src/airflow_dag.py
+[2025-12-04T19:37:21.682+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:37:21.684+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:37:21.683+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:37:22.015+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:37:22.039+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:37:22.039+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:37:22.053+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:37:22.053+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:37:22.067+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.397 seconds
+[2025-12-04T19:37:52.351+0600] {processor.py:157} INFO - Started process (PID=704) to work on /app/src/airflow_dag.py
+[2025-12-04T19:37:52.357+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:37:52.360+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:37:52.359+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:37:52.724+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:37:52.743+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:37:52.743+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:37:52.758+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:37:52.757+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:37:52.770+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.426 seconds
+[2025-12-04T19:38:23.038+0600] {processor.py:157} INFO - Started process (PID=712) to work on /app/src/airflow_dag.py
+[2025-12-04T19:38:23.042+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:38:23.044+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:38:23.043+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:38:23.408+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:38:23.426+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:38:23.425+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:38:23.448+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:38:23.447+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:38:23.463+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.438 seconds
+[2025-12-04T19:38:53.719+0600] {processor.py:157} INFO - Started process (PID=720) to work on /app/src/airflow_dag.py
+[2025-12-04T19:38:53.729+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:38:53.730+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:38:53.730+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:38:54.106+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:38:54.135+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:38:54.135+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:38:54.163+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:38:54.163+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:38:54.328+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.616 seconds
+[2025-12-04T19:39:24.594+0600] {processor.py:157} INFO - Started process (PID=728) to work on /app/src/airflow_dag.py
+[2025-12-04T19:39:24.598+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:39:24.600+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:39:24.599+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:39:24.980+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:39:25.003+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:39:25.003+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:39:25.021+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:39:25.021+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:39:25.201+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.620 seconds
+[2025-12-04T19:39:55.436+0600] {processor.py:157} INFO - Started process (PID=736) to work on /app/src/airflow_dag.py
+[2025-12-04T19:39:55.444+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:39:55.446+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:39:55.445+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:39:55.899+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:39:55.924+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:39:55.923+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:39:55.941+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:39:55.941+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:39:56.094+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.664 seconds
+[2025-12-04T19:40:05.453+0600] {processor.py:157} INFO - Started process (PID=744) to work on /app/src/airflow_dag.py
+[2025-12-04T19:40:05.459+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:40:05.461+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:40:05.460+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:40:05.826+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:40:05.851+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:40:05.851+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:40:05.981+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:40:05.981+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:40:06.000+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.553 seconds
+[2025-12-04T19:40:10.531+0600] {processor.py:157} INFO - Started process (PID=752) to work on /app/src/airflow_dag.py
+[2025-12-04T19:40:10.535+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:40:10.538+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:40:10.537+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:40:10.975+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:40:10.998+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:40:10.998+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:40:11.128+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:40:11.128+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:40:11.142+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.632 seconds
+[2025-12-04T19:40:41.360+0600] {processor.py:157} INFO - Started process (PID=760) to work on /app/src/airflow_dag.py
+[2025-12-04T19:40:41.363+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:40:41.369+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:40:41.366+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:40:41.734+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:40:41.752+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:40:41.752+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:40:41.887+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:40:41.887+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:40:41.900+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.546 seconds
+[2025-12-04T19:41:12.111+0600] {processor.py:157} INFO - Started process (PID=768) to work on /app/src/airflow_dag.py
+[2025-12-04T19:41:12.114+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:41:12.116+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:41:12.115+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:41:12.413+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:41:12.434+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:41:12.433+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:41:12.574+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:41:12.574+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:41:12.588+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.485 seconds
+[2025-12-04T19:41:42.759+0600] {processor.py:157} INFO - Started process (PID=776) to work on /app/src/airflow_dag.py
+[2025-12-04T19:41:42.762+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:41:42.764+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:41:42.762+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:41:43.222+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:41:43.383+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:41:43.383+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:41:43.395+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:41:43.395+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:41:43.408+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.656 seconds
+[2025-12-04T19:42:13.615+0600] {processor.py:157} INFO - Started process (PID=784) to work on /app/src/airflow_dag.py
+[2025-12-04T19:42:13.619+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:42:13.622+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:42:13.622+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:42:13.961+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:42:13.983+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:42:13.982+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:42:13.996+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:42:13.996+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:42:14.012+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.413 seconds
+[2025-12-04T19:42:44.287+0600] {processor.py:157} INFO - Started process (PID=792) to work on /app/src/airflow_dag.py
+[2025-12-04T19:42:44.290+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:42:44.291+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:42:44.291+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:42:44.627+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:42:44.650+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:42:44.649+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:42:44.668+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:42:44.668+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:42:44.689+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.410 seconds
+[2025-12-04T19:43:14.949+0600] {processor.py:157} INFO - Started process (PID=800) to work on /app/src/airflow_dag.py
+[2025-12-04T19:43:14.953+0600] {processor.py:829} INFO - Processing file /app/src/airflow_dag.py for tasks to queue
+[2025-12-04T19:43:14.955+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:43:14.954+0600] {dagbag.py:536} INFO - Filling up the DagBag from /app/src/airflow_dag.py
+[2025-12-04T19:43:15.291+0600] {processor.py:839} INFO - DAG(s) dict_keys(['kolesa_trucks_etl']) retrieved from /app/src/airflow_dag.py
+[2025-12-04T19:43:15.311+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:43:15.310+0600] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-04T19:43:15.323+0600] {logging_mixin.py:154} INFO - [2025-12-04T19:43:15.323+0600] {dag.py:3722} INFO - Setting next_dagrun for kolesa_trucks_etl to 2025-12-04T12:34:11.839712+00:00, run_after=2025-12-05T12:34:11.839712+00:00
+[2025-12-04T19:43:15.434+0600] {processor.py:179} INFO - Processing /app/src/airflow_dag.py took 0.492 seconds

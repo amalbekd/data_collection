@@ -1,0 +1,36 @@
+[2025-12-04T19:19:23.189+0600] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kolesa_trucks_etl.clean_data manual__2025-12-04T13:13:19.904070+00:00 [queued]>
+[2025-12-04T19:19:23.193+0600] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kolesa_trucks_etl.clean_data manual__2025-12-04T13:13:19.904070+00:00 [queued]>
+[2025-12-04T19:19:23.193+0600] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2025-12-04T19:19:23.204+0600] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): clean_data> on 2025-12-04 13:13:19.904070+00:00
+[2025-12-04T19:19:23.209+0600] {standard_task_runner.py:57} INFO - Started process 351 to run task
+[2025-12-04T19:19:23.215+0600] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'kolesa_trucks_etl', 'clean_data', 'manual__2025-12-04T13:13:19.904070+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/airflow_dag.py', '--cfg-path', '/tmp/tmptln00jiy']
+[2025-12-04T19:19:23.216+0600] {standard_task_runner.py:85} INFO - Job 30: Subtask clean_data
+[2025-12-04T19:19:23.252+0600] {task_command.py:416} INFO - Running <TaskInstance: kolesa_trucks_etl.clean_data manual__2025-12-04T13:13:19.904070+00:00 [running]> on host 46074d81a1bb
+[2025-12-04T19:19:23.290+0600] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='student_team' AIRFLOW_CTX_DAG_ID='kolesa_trucks_etl' AIRFLOW_CTX_TASK_ID='clean_data' AIRFLOW_CTX_EXECUTION_DATE='2025-12-04T13:13:19.904070+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-04T13:13:19.904070+00:00'
+[2025-12-04T19:19:23.293+0600] {logging_mixin.py:154} INFO - --- ОЧИСТКА ДАННЫХ (ПАРСИНГ ХАРАКТЕРИСТИК) ---
+[2025-12-04T19:19:23.315+0600] {logging_mixin.py:154} INFO -                 title    city     price  ...  body_style  drive_type    fuel
+0       BYD Song Plus  Алматы  13700000  ...   кроссовер       other   other
+1  Volkswagen Touareg  Алматы   7700000  ...   кроссовер       other  diesel
+2          Kia Cerato  Алматы   9200000  ...       седан       other  petrol
+3    BYD Destroyer 05  Алматы   8200000  ...       седан       other   other
+4        Toyota Camry  Алматы  25000000  ...       седан       other  petrol
+
+[5 rows x 9 columns]
+[2025-12-04T19:19:23.316+0600] {logging_mixin.py:154} INFO - Всего чистых записей: 160
+[2025-12-04T19:19:23.316+0600] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/app/src/cleaner.py", line 82, in run_cleaner
+    final_df = final_df.drop_duplicates(subset=['title', 'city', 'description'], keep='first')
+  File "/usr/local/lib/python3.10/dist-packages/pandas/core/frame.py", line 6840, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+  File "/usr/local/lib/python3.10/dist-packages/pandas/core/frame.py", line 6972, in duplicated
+    raise KeyError(Index(diff))
+KeyError: Index(['description'], dtype='object')
+[2025-12-04T19:19:23.321+0600] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=kolesa_trucks_etl, task_id=clean_data, execution_date=20251204T131319, start_date=20251204T131923, end_date=20251204T131923
+[2025-12-04T19:19:23.329+0600] {standard_task_runner.py:104} ERROR - Failed to execute job 30 for task clean_data (Index(['description'], dtype='object'); 351)
+[2025-12-04T19:19:23.353+0600] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-12-04T19:19:23.364+0600] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
