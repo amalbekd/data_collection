@@ -1,7 +1,3 @@
-Here is the professional, ready-to-use **README.md** file in English. It covers all the points required by your assignment.
-
-Copy the code below and save it as `README.md` in your project folder.
-
 # Kolesa.kz ETL Data Pipelinе
 
 **Course:** Data Collection & Preparation  
