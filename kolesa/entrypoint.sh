@@ -1,3 +1,4 @@
+#!/bin/bash
 airflow db init
 
 airflow users create \
@@ -6,7 +7,7 @@ airflow users create \
     --lastname Project \
     --role Admin \
     --email admin@example.com \
-    --password admin
+    --password admin || true
 
 airflow scheduler &
 

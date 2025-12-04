@@ -79,7 +79,7 @@ def run_scraper():
             writer = csv.writer(f)
             writer.writerow(["title", "raw_price", "city", "description"])
             writer.writerows(data)
-        print(f"✅ УСПЕХ! Сохранено {len(data)} строк в {RAW_DATA_PATH}")
+        print(f"Save {len(data)} rows to {RAW_DATA_PATH}")
     else:
         print("!!! EMPTY !!! Failed to collect data.")
         raise ValueError("Scraper returned an empty list!")
