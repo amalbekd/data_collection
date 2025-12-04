@@ -1,112 +1,140 @@
 title,city,price,year,engine_vol,transmission,body_style,drive_type,fuel
-Lincoln Navigator,Алматы,6350000,2005,5.4,automatic,внедорожник,other,petrol
-Mercedes-Benz E 300 Premium,Алматы,44500000,2025,2.0,automatic,седан,other,petrol
-Nissan Cefiro,Алматы,1950000,1996,3.0,automatic,седан,other,petrol
-Mercedes-Benz E 230,Алматы,2500000,1996,2.3,automatic,седан,other,petrol
-Hyundai Starex,Алматы,7500000,2011,2.5,manual,other,other,diesel
-Hyundai Elantra,Алматы,9500000,2021,1.6,automatic,седан,other,petrol
-Toyota RAV4,Алматы,13000000,2021,2.5,automatic,кроссовер,other,petrol
-Kia Sportage,Алматы,14900000,2025,2.0,automatic,кроссовер,other,petrol
-BYD Destroyer 05,Алматы,8500000,2025,1.5,automatic,седан,other,other
-Toyota Highlander Luxe,Алматы,29500000,2025,2.5,automatic,кроссовер,other,petrol
-Subaru Legacy,Алматы,6000000,2011,2.5,automatic,седан,other,petrol
-Hyundai Staria,Алматы,23000000,2024,2.2,automatic,other,other,diesel
-Mercedes-Benz C 180,Алматы,10000000,2018,1.6,automatic,седан,other,petrol
-Changan UNI-K,Алматы,15580000,2025,2.0,automatic,кроссовер,other,petrol
-Kia Sportage,Алматы,12600000,2024,2.0,automatic,кроссовер,other,petrol
-AITO M8,Алматы,29000000,2025,1.5,automatic,кроссовер,other,other
-Mercedes-Benz G 55 AMG,Алматы,29000000,2011,5.5,automatic,внедорожник,other,petrol
-Toyota Avensis,Алматы,4600000,2005,1.8,automatic,седан,other,petrol
-Toyota Camry,Алматы,9500000,2016,2.5,automatic,седан,other,petrol
-Lexus GS 300,Алматы,4900000,2005,3.0,automatic,седан,other,petrol
-Land Rover Range Rover,Алматы,33950000,2015,3.0,automatic,внедорожник,other,petrol
-Lexus NX 300,Алматы,15890000,2018,2.0,automatic,кроссовер,other,petrol
-Mitsubishi Pajero,Алматы,10000000,2007,3.0,automatic,внедорожник,other,petrol
-Subaru Outback,Алматы,7500000,2010,3.6,automatic,универсал,other,petrol
-BMW 540,Алматы,19000000,2017,3.0,automatic,седан,other,petrol
-Changan Qiyuan A07,Алматы,14500000,2025,1.5,automatic,лифтбек,other,other
-Land Rover Range Rover Evoque,Алматы,11300000,2014,2.0,automatic,кроссовер,other,petrol
-Haval H6 GT Special,Алматы,16890000,2025,2.0,robot,кроссовер,other,petrol
-Toyota Camry,Алматы,13500000,2022,2.5,automatic,седан,other,petrol
-Mercedes-Benz S 560,Алматы,39900000,2019,4.0,automatic,седан,other,petrol
-Li L7 Pro,Алматы,25864000,2025,1.5,automatic,кроссовер,other,other
-Deepal G318 Secret Edition,Алматы,11400000,2025,1.5,automatic,внедорожник,other,other
-Deepal S09 Ultra+,Алматы,25100000,2025,1.5,automatic,кроссовер,other,other
-Zeekr 7X Smart Driving,Алматы,21200000,2025,0.0,automatic,кроссовер,other,other
-Changan CS55 Plus Tech,Алматы,11000000,2025,1.5,robot,кроссовер,other,petrol
-Hongqi E-QM5,Алматы,8800000,2025,0.0,automatic,седан,other,other
-Deepal S07 Max 215,Алматы,13899000,2025,1.5,automatic,кроссовер,other,other
-Li L9 Pro,Алматы,34700000,2025,1.5,automatic,внедорожник,other,other
-Tank 500 Tech Plus 7,Алматы,31190000,2025,3.0,automatic,внедорожник,other,petrol
-Toyota Fortuner,Алматы,15400000,2023,2.7,automatic,внедорожник,other,petrol
-Tank 300 City Plus,Алматы,16590000,2023,2.0,automatic,внедорожник,other,petrol
-Lynk & Co 900 2.0T Ultra,Алматы,35990000,2025,2.0,automatic,кроссовер,other,other
-EXEED RX Luxury,Алматы,13500000,2023,2.0,automatic,кроссовер,other,petrol
-Toyota Camry,Алматы,12000000,2021,2.5,automatic,седан,other,petrol
-EXEED VX Premium,Алматы,19390000,2025,2.0,automatic,кроссовер,other,petrol
-Kia Cee'd,Алматы,9800000,2023,1.6,automatic,хэтчбек,other,petrol
-Toyota Camry,Алматы,22700000,2024,2.5,automatic,седан,other,petrol
-Mercedes-Benz G 63 AMG,Алматы,35000000,2014,5.5,automatic,внедорожник,other,petrol
-Volkswagen Golf,Алматы,2000000,1995,2.8,automatic,хэтчбек,other,petrol
-Tank 300,Алматы,18200000,2023,2.0,automatic,внедорожник,other,petrol
-Kia Sorento,Алматы,22500000,2024,2.5,automatic,кроссовер,other,petrol
-Toyota Land Cruiser Prestige,Алматы,33500000,2025,4.0,manual,внедорожник,other,petrol
-Mercedes-Benz S 63 AMG,Алматы,145500000,2024,4.0,automatic,седан,other,other
-BMW X5,Алматы,35500000,2022,3.0,automatic,кроссовер,other,petrol
-Land Rover Range Rover Velar Dynamic SE,Алматы,58183700,2025,2.0,automatic,кроссовер,other,petrol
-Mazda 626,Алматы,300000,1988,2.0,manual,универсал,other,petrol
-Chery Tiggo 7 Pro Max,Алматы,8900000,2023,1.6,automatic,кроссовер,other,petrol
-Geely Galaxy Starship 7,Алматы,14499000,2025,1.5,automatic,кроссовер,other,other
-BMW X5,Алматы,31500000,2020,3.0,automatic,кроссовер,other,diesel
-Hyundai Elantra,Алматы,13900000,2024,1.6,automatic,седан,other,petrol
-Chevrolet TrailBlazer,Алматы,13300000,2020,3.6,automatic,внедорожник,other,petrol
-BMW i3,Алматы,11000000,2018,0.7,automatic,хэтчбек,other,other
-Hyundai Elantra,Алматы,9000000,2023,1.5,cvt,седан,other,petrol
-Mercedes-Benz G 63 AMG,Алматы,45000000,2016,5.5,automatic,внедорожник,other,petrol
-Mercedes-Benz GL 450,Алматы,11000000,2007,4.7,automatic,внедорожник,other,petrol
-Changan X5 Plus,Алматы,8750000,2025,1.5,robot,кроссовер,other,petrol
-Toyota Highlander,Алматы,11500000,2011,3.5,automatic,кроссовер,other,petrol
-Deepal G318,Алматы,18600000,2025,1.5,automatic,внедорожник,other,other
-Volkswagen Passat,Алматы,3200000,2005,1.8,automatic,седан,awd,petrol
-Li L7,Алматы,28500000,2025,1.5,automatic,кроссовер,other,other
-Chevrolet Tracker,Алматы,9500000,2025,1.2,automatic,кроссовер,other,petrol
-Hyundai Sonata,Алматы,7200000,2019,2.0,automatic,седан,other,petrol
-BYD Seal 05,Алматы,8799000,2025,1.5,cvt,седан,other,other
-Volkswagen Touareg,Алматы,7800000,2007,3.6,automatic,кроссовер,other,petrol
-Chevrolet Lacetti,Алматы,6800000,2023,1.5,automatic,седан,other,petrol
-ГАЗ ГАЗель,Алматы,7700000,2019,2.7,manual,other,other,petrol
-Mercedes-Benz GLE 53 AMG,Алматы,81000000,2025,3.0,automatic,кроссовер,other,petrol
-Toyota Camry,Алматы,25000000,2025,2.5,automatic,седан,other,petrol
-Mercedes-Benz C 240,Алматы,3000000,1998,2.4,automatic,седан,other,petrol
-ВАЗ (Lada) Granta 2190 Classic'24,Алматы,6090000,2025,1.6,manual,седан,other,petrol
-Kia Rio,Алматы,4880000,2014,1.6,automatic,седан,other,petrol
-GAC GS8 GX,Алматы,21490000,2024,2.0,automatic,кроссовер,other,petrol
-GAC GS3 Standart,Алматы,9990000,2025,1.5,automatic,кроссовер,other,petrol
-Toyota Camry,Алматы,4700000,2003,2.4,automatic,седан,other,petrol
-Li L6,Алматы,20300000,2024,1.5,automatic,кроссовер,other,other
-Maserati GranCabrio Folgore,Алматы,123020000,2024,0.0,automatic,other,other,other
-Chery Tiggo 4 Pro Premium,Алматы,6800000,2022,1.5,cvt,кроссовер,other,petrol
-Geely Emgrand Standard,Алматы,7290000,2025,1.5,manual,седан,other,petrol
-Hyundai Creta,Алматы,8750000,2021,1.6,automatic,кроссовер,other,petrol
-Rox 01 VIP,Алматы,29500000,2025,1.5,automatic,внедорожник,other,other
-Haval H6 GT Tech Plus,Алматы,13737300,2025,2.0,automatic,кроссовер,other,petrol
-Porsche Boxster,Алматы,51000000,2022,2.0,robot,other,other,petrol
-BMW X5,Алматы,80393575,2025,3.0,automatic,кроссовер,other,petrol
-Toyota Yaris,Алматы,4450000,2010,1.5,automatic,седан,other,petrol
-Subaru Outback,Алматы,4500000,2005,2.5,automatic,универсал,other,petrol
-Zeekr 001,Алматы,37100000,2024,1265.0,automatic,лифтбек,other,other
-Toyota Highlander,Алматы,7000000,2003,3.0,automatic,кроссовер,other,petrol
-Toyota Raum,Алматы,2500000,1997,1.5,automatic,other,other,petrol
-Rox 01,Алматы,30000000,2025,1.5,automatic,внедорожник,other,other
-Kia K5,Алматы,11900000,2021,2.0,automatic,седан,other,petrol
-BYD Song Plus,Алматы,15799000,2025,1.5,cvt,кроссовер,other,other
-Kia Cerato,Алматы,9200000,2019,1.6,automatic,седан,other,petrol
-Changan CS55 Plus Comfort,Алматы,15690000,2026,1.5,robot,кроссовер,other,petrol
-Subaru Legacy,Алматы,6200000,2007,3.0,automatic,седан,other,petrol
-Hyundai Santa Fe,Алматы,21035707,2024,2.5,automatic,кроссовер,other,petrol
-Hyundai Palisade,Алматы,26500000,2023,3.5,automatic,кроссовер,other,petrol
-Porsche Macan,Алматы,39000000,2024,2.0,robot,кроссовер,other,petrol
-Lexus GS 300,Алматы,5500000,2006,3.0,automatic,седан,other,petrol
-Toyota Land Cruiser,Алматы,37000000,2017,4.6,automatic,внедорожник,other,petrol
-Land Rover Range Rover,Алматы,165000000,2024,4.4,automatic,внедорожник,other,petrol
-Hongqi H5,Алматы,13000000,2024,2.0,automatic,седан,other,petrol
+BYD Destroyer 05,Almaty,8400000,2025,1.5,automatic,седан,other,other
+Volkswagen Tiguan,Almaty,20500000,2021,2.0,robot,кроссовер,other,petrol
+Voyah Free,Almaty,15500000,2024,1.5,automatic,кроссовер,other,petrol
+Land Rover Range Rover,Almaty,41000000,2017,5.0,automatic,внедорожник,other,petrol
+RAM 1500,Almaty,51900000,2025,3.0,automatic,other,other,petrol
+Honda HR-V,Almaty,12200000,2022,1.8,cvt,кроссовер,other,petrol
+Mercedes-Benz S 600,Almaty,222000000,1993,6.0,automatic,седан,other,petrol
+Mercedes-Benz SLC 300,Almaty,21800000,2019,2.0,automatic,other,other,petrol
+Zeekr 001,Almaty,19500000,2023,0.0,automatic,лифтбек,other,other
+Toyota Land Cruiser,Almaty,45000000,2022,3.5,automatic,внедорожник,other,petrol
+Volkswagen Amarok,Almaty,10000000,2014,2.0,automatic,other,other,diesel
+Toyota Land Cruiser Prado,Almaty,25500000,2013,4.0,automatic,внедорожник,other,petrol
+Porsche Taycan,Almaty,38700000,2021,0.0,automatic,седан,other,other
+Toyota Hilux,Almaty,25700000,2022,4.0,automatic,other,other,petrol
+Changan X5 Plus,Almaty,8800000,2024,1.5,robot,кроссовер,other,petrol
+Volkswagen Touareg,Almaty,4800000,2008,2.5,automatic,кроссовер,other,diesel
+Hyundai Solaris,Almaty,5740000,2015,1.6,automatic,седан,other,petrol
+Zeekr 001,Almaty,51900000,2024,0.0,automatic,лифтбек,other,other
+Toyota Land Cruiser Prado,Almaty,38000000,2024,2.4,automatic,внедорожник,other,petrol
+BYD Qin L DM-i,Almaty,10100000,2025,1.5,cvt,седан,other,other
+Audi Q7,Almaty,5633000,2006,4.2,automatic,кроссовер,other,petrol
+Audi A8,Almaty,34000000,2020,3.0,automatic,седан,other,petrol
+Deepal S07,Almaty,13000000,2025,1.5,cvt,кроссовер,other,other
+Toyota Prius,Almaty,8500000,2014,1.8,cvt,хэтчбек,other,other
+Hyundai Tucson,Almaty,11000000,2020,2.0,automatic,кроссовер,other,petrol
+ВАЗ (Lada) Granta 2190 Classic'24,Almaty,5890000,2025,1.6,manual,седан,other,petrol
+GAC GS4 Max GB,Almaty,12490000,2025,1.5,robot,кроссовер,other,petrol
+Changan CS55 Plus Tech,Almaty,11490000,2025,1.5,robot,кроссовер,other,petrol
+Infiniti QX50 Sport,Almaty,30990000,2024,2.0,cvt,кроссовер,other,petrol
+Chevrolet Cobalt,Almaty,6380000,2025,1.5,automatic,седан,other,petrol
+Kia Soul,Almaty,10450000,2022,2.0,automatic,хэтчбек,other,petrol
+Mercedes-Benz S 63 AMG,Almaty,145500000,2024,4.0,automatic,седан,other,other
+Toyota Land Cruiser Prado,Almaty,23500000,2014,4.0,automatic,внедорожник,other,petrol
+Changan X5 Plus,Almaty,8299000,2026,1.5,robot,кроссовер,other,petrol
+Mitsubishi RVR,Almaty,1400000,1994,2.0,manual,other,other,diesel
+Land Rover Range Rover Sport,Almaty,9000000,2007,4.2,automatic,внедорожник,other,petrol
+Toyota Land Cruiser,Almaty,67500000,2024,3.5,automatic,внедорожник,other,petrol
+Haval Dargo,Almaty,10500000,2022,2.0,robot,кроссовер,other,petrol
+Toyota Camry,Almaty,9000000,2013,2.5,automatic,седан,other,petrol
+Kia Rio,Almaty,7550000,2021,1.6,automatic,седан,other,petrol
+Subaru Outback,Almaty,1970000,1996,2.5,automatic,универсал,other,petrol
+Hyundai Tucson,Almaty,14700000,2024,2.5,automatic,кроссовер,awd,petrol
+Mercedes-Benz E 240,Almaty,4650000,2002,2.6,automatic,седан,other,petrol
+Dodge Durango,Almaty,7800000,2006,5.7,automatic,внедорожник,other,petrol
+Toyota Land Cruiser Prado,Almaty,26000000,2022,2.7,automatic,внедорожник,other,petrol
+Changan X5 Plus,Almaty,9000000,2025,1.5,robot,кроссовер,other,petrol
+Honda Odyssey,Almaty,3200000,2000,2.3,automatic,other,other,petrol
+Hyundai Accent,Almaty,6350000,2017,1.6,automatic,седан,other,petrol
+Hyundai Palisade,Almaty,36900000,2025,2.5,automatic,кроссовер,other,petrol
+Rox 01 Premium,Almaty,26800000,2025,1.5,automatic,внедорожник,other,other
+BYD Seal 05,Almaty,8500000,2025,1.5,cvt,седан,other,other
+Hongqi E-QM5,Almaty,8700000,2025,0.0,automatic,седан,other,other
+Li L7 Pro,Almaty,25000000,2025,1.5,automatic,кроссовер,other,other
+AITO M7 Ultra 4WD 6s,Almaty,27700000,2025,1.5,automatic,кроссовер,other,other
+Nissan Qashqai,Almaty,6000000,2014,1.2,cvt,кроссовер,other,petrol
+Lexus LX 470,Almaty,11000000,2004,4.7,automatic,внедорожник,other,petrol
+Mercedes-Benz GLE 63 AMG,Almaty,84000000,2024,4.0,automatic,кроссовер,other,petrol
+Kia Sorento,Almaty,20200000,2025,2.5,automatic,кроссовер,other,petrol
+ГАЗ ГАЗель,Almaty,7200000,2007,2.9,manual,other,awd,petrol
+Tank 500,Almaty,28500000,2024,3.0,automatic,внедорожник,other,petrol
+Zeekr 001,Almaty,17000000,2022,0.0,automatic,лифтбек,other,other
+Lexus RX 350,Almaty,34200000,2024,2.4,automatic,кроссовер,other,petrol
+BMW X5,Almaty,28000000,2019,3.0,automatic,кроссовер,other,petrol
+BMW X5,Almaty,75910150,2025,3.0,automatic,кроссовер,other,petrol
+ВАЗ (Lada) Priora 2170,Almaty,2300000,2014,1.6,manual,седан,other,petrol
+Land Rover Range Rover Sport,Almaty,18500000,2014,3.0,automatic,внедорожник,other,petrol
+Hongqi HS5,Almaty,14800000,2024,2.0,automatic,кроссовер,other,petrol
+Volkswagen Golf,Almaty,1300000,1992,2.0,manual,хэтчбек,other,petrol
+BMW X7,Almaty,76000000,2023,3.0,automatic,кроссовер,other,petrol
+BYD Han,Almaty,15500000,2025,0.0,automatic,седан,other,other
+Lexus GX 470,Almaty,8750000,2003,4.7,automatic,внедорожник,other,petrol
+BMW 520,Almaty,10700000,2015,2.0,automatic,седан,other,petrol
+BYD Song Plus Flagship 602 EV,Almaty,14800000,2025,0.0,automatic,кроссовер,other,other
+Volkswagen Polo,Almaty,5000000,2018,1.6,manual,седан,other,petrol
+Toyota Camry,Almaty,11900000,2015,2.5,automatic,седан,other,petrol
+Changan CS75 Plus Tech,Almaty,10300000,2025,1.5,automatic,кроссовер,other,petrol
+Hyundai Accent,Almaty,4950000,2013,1.6,automatic,седан,other,petrol
+Toyota Tundra,Almaty,13900000,2009,4.6,automatic,other,other,petrol
+Voyah Free,Almaty,17000000,2025,1.5,automatic,кроссовер,other,other
+BYD Song Plus Flagship 100 DM-i,Almaty,15299000,2025,1.5,cvt,кроссовер,other,other
+Toyota Land Cruiser Prado,Almaty,7800000,1996,3.0,automatic,внедорожник,other,diesel
+Hyundai Sonata Elegance,Almaty,14700000,2024,2.5,automatic,седан,other,petrol
+Audi RS 7,Almaty,24000000,2015,4.0,automatic,лифтбек,other,petrol
+Nissan Patrol,Almaty,13800000,2012,5.6,automatic,внедорожник,other,petrol
+Kia Rio,Almaty,1380000,2002,1.5,automatic,универсал,other,petrol
+Toyota Prius,Almaty,3700000,2007,1.5,cvt,хэтчбек,other,other
+Dodge Durango,Almaty,65000000,2021,6.2,automatic,внедорожник,other,petrol
+Nissan Almera,Almaty,4070000,2014,1.6,automatic,седан,other,petrol
+Hyundai Accent,Almaty,6700000,2020,1.4,automatic,седан,other,petrol
+Ford Transit,Almaty,20000000,2025,2.0,manual,other,other,petrol
+ВАЗ (Lada) Granta 2190,Almaty,2200000,2014,1.6,manual,седан,other,petrol
+Lexus LS 500,Almaty,27000000,2018,3.4,automatic,седан,other,petrol
+Toyota Camry,Almaty,5200000,2002,2.4,automatic,седан,other,petrol
+Nissan Almera,Almaty,2000000,2001,1.8,automatic,седан,other,petrol
+Toyota Land Cruiser,Almaty,36500000,2018,4.6,automatic,внедорожник,other,petrol
+Land Rover Range Rover Sport,Almaty,30000000,2018,3.0,automatic,внедорожник,other,petrol
+Changan CS55 Plus,Almaty,9800000,2025,1.5,robot,кроссовер,other,petrol
+Toyota Land Cruiser Prado,Almaty,35500000,2021,4.0,automatic,внедорожник,other,petrol
+Lexus RX 400h,Almaty,8500000,2008,3.3,cvt,кроссовер,other,other
+EXEED TXL,Almaty,11000000,2023,2.0,robot,кроссовер,other,petrol
+Hyundai Grandeur,Almaty,10700000,2019,2.4,automatic,седан,other,petrol
+Deepal G318,Almaty,17900000,2025,1.5,automatic,внедорожник,other,other
+Subaru Legacy,Almaty,3300000,2000,2.5,automatic,универсал,awd,petrol
+Land Rover Range Rover,Almaty,25850000,2014,5.0,automatic,внедорожник,other,petrol
+Mitsubishi Pajero,Almaty,8500000,2008,3.0,automatic,внедорожник,other,petrol
+Haval F7x,Almaty,9500000,2021,2.0,robot,кроссовер,other,petrol
+Mercedes-Benz G 63 AMG,Almaty,185000000,2025,4.0,automatic,внедорожник,other,petrol
+Lamborghini Urus,Almaty,180000000,2021,4.0,automatic,кроссовер,other,petrol
+Lexus LX 570,Almaty,20000000,2011,5.7,automatic,внедорожник,other,petrol
+Toyota Camry,Almaty,4717000,2005,2.4,automatic,седан,other,petrol
+Toyota Camry,Almaty,11000000,2019,2.5,automatic,седан,other,petrol
+Volkswagen Caddy,Almaty,14000000,2020,1.6,manual,other,other,petrol
+Toyota Sprinter Carib,Almaty,1500000,1996,1.6,automatic,универсал,other,petrol
+BYD Yangwang U8,Almaty,57000000,2024,2.0,automatic,внедорожник,other,other
+Mazda Tribute,Almaty,3200000,2002,3.0,automatic,кроссовер,other,petrol
+Mazda Tribute,Almaty,4500000,2005,3.0,automatic,кроссовер,other,petrol
+Nissan Qashqai,Almaty,8040000,2016,2.0,cvt,кроссовер,other,petrol
+Subaru Outback,Almaty,10000000,2017,2.5,cvt,универсал,other,petrol
+Land Rover Range Rover Sport,Almaty,8750000,2010,5.0,automatic,внедорожник,other,petrol
+Volkswagen Touareg,Almaty,4100000,2004,3.2,automatic,кроссовер,other,petrol
+BMW 730,Almaty,3000000,1995,3.0,automatic,седан,other,petrol
+Nissan Cefiro,Almaty,1350000,1995,2.5,automatic,седан,other,petrol
+Toyota Land Cruiser Prado,Almaty,4500000,1994,3.0,automatic,внедорожник,other,diesel
+Kia Forte,Almaty,7300000,2019,2.0,cvt,седан,other,petrol
+Mercedes-Benz E 350,Almaty,6500000,2012,3.5,automatic,купе,other,petrol
+Daewoo Damas,Almaty,2200000,2005,0.8,manual,other,other,petrol
+Toyota Land Cruiser,Almaty,33000000,2016,4.6,automatic,внедорожник,other,petrol
+Nissan Cefiro,Almaty,2000000,1997,2.0,automatic,седан,other,petrol
+ЗАЗ Vida,Almaty,3950000,2013,1.4,automatic,седан,other,petrol
+Toyota RAV4,Almaty,4250000,2003,2.0,automatic,кроссовер,other,petrol
+Changan CS55 Plus,Almaty,11000000,2026,1.5,robot,кроссовер,other,petrol
+Subaru Outback,Almaty,15300000,2022,2.5,cvt,универсал,other,petrol
+Toyota RAV4,Almaty,12200000,2016,2.0,cvt,кроссовер,other,petrol
+BMW X7,Almaty,44000000,2020,3.0,automatic,кроссовер,other,petrol
+Deepal S07,Almaty,13800000,2024,1.5,automatic,кроссовер,other,other
+BYD Qin L DM-i Leading,Almaty,14690000,2025,1.5,automatic,седан,other,other
+Changan Oshan X5,Almaty,6950000,2022,1.6,cvt,кроссовер,other,petrol
+Isuzu TF (Pickup),Almaty,3650000,2008,2.6,manual,other,other,petrol
+Hyundai Staria,Almaty,30000000,2024,3.5,robot,other,other,petrol
