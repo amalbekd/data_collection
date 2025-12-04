@@ -2,8 +2,7 @@ Here is the professional, ready-to-use **README.md** file in English. It covers 
 
 Copy the code below and save it as `README.md` in your project folder.
 
-```markdown
-# Kolesa.kz ETL Data Pipeline
+# Kolesa.kz ETL Data Pipelinе
 
 **Course:** Data Collection & Preparation  
 **Project:** Automated ETL Pipeline using Playwright, Docker, and Apache Airflow.
@@ -131,5 +130,4 @@ The table `cars` contains the following schema:
 0   1   Toyota RAV4   8500000  Алматы  2007         2.4    automatic    кроссовер  petrol
 1   2       BMW 316   8500000  Алматы  1983         4.4       manual         купе  petrol
 2   3  Toyota Camry   9450000  Алматы  2015         2.5    automatic        седан  petrol
-```
 ```
